@@ -33,6 +33,7 @@
       </div>
     </div>
   </div>
+  <Contact/>
   <Map/>
 </div>
 </template>
@@ -42,13 +43,15 @@ import Header from '../Header.vue'
 import MainInfo from './components/MainInfo.vue'
 import Menu from '../Menu.vue'
 import Map from './components/Map.vue'
+import Contact from './components/Contact.vue'
 export default {
   name: 'MainContent',
   components: {
     Header,
     Menu,
     MainInfo,
-    Map
+    Map,
+    Contact
   }
 }
 </script>
