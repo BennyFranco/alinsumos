@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <Map></Map>
+  <Map/>
 </div>
 </template>
 
