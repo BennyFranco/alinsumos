@@ -3,6 +3,7 @@
     <!-- Menu Component -->
     <Menu/>
     <MainContent/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,19 +12,17 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import HelloWorld from './components/HelloWorld.vue'
-import Header from './components/Header.vue'
 import MainContent from './components/main_content/MainContent.vue'
-import MainInfo from './components/main_content/components/MainInfo.vue'
 import Menu from './components/Menu.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    Header,
     Menu,
     MainContent,
-    MainInfo
+    Footer
   }
 }
 </script>
