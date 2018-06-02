@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <!-- Menu Component -->
-    <Menu/>  
+    <Menu/>
     <MainContent/>
-    <MainInfo/>
   </div>
 </template>
 

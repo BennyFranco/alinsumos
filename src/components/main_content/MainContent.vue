@@ -1,6 +1,10 @@
 <template>
 <div id="mainContent">
+
+  <!-- Header component -->
   <Header/>
+  <!-- End header component -->
+
   <div id="about" class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-8">
@@ -33,19 +37,29 @@
       </div>
     </div>
   </div>
+
+<!-- Main info component -->
+  <MainInfo/>
+<!-- End main info -->
+
+<!-- Products component -->
+  <MainProducts/>
+<!-- Products info -->
+
 </div>
 </template>
 
 <script>
 import Header from '../Header.vue'
 import MainInfo from './components/MainInfo.vue'
-import Menu from '../Menu.vue'
+import MainProducts from './components/MainProducts.vue'
+
 export default {
   name: 'MainContent',
   components: {
     Header,
-    Menu,
-    MainInfo
+    MainInfo,
+    MainProducts
   }
 }
 </script>
