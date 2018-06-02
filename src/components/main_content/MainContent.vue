@@ -33,6 +33,7 @@
       </div>
     </div>
   </div>
+  <Map></Map>
 </div>
 </template>
 
@@ -40,12 +41,14 @@
 import Header from '../Header.vue'
 import MainInfo from './components/MainInfo.vue'
 import Menu from '../Menu.vue'
+import Map from './components/Map.vue'
 export default {
   name: 'MainContent',
   components: {
     Header,
     Menu,
-    MainInfo
+    MainInfo,
+    Map
   }
 }
 </script>
