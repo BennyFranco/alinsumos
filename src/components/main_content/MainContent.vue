@@ -46,6 +46,8 @@
   <MainProducts/>
 <!-- Products info -->
 
+  <Contact/>
+  <Map/>
 </div>
 </template>
 
@@ -53,13 +55,17 @@
 import Header from '../Header.vue'
 import MainInfo from './components/MainInfo.vue'
 import MainProducts from './components/MainProducts.vue'
+import Map from './components/Map.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'MainContent',
   components: {
     Header,
     MainInfo,
-    MainProducts
+    MainProducts,
+    Map,
+    Contact
   }
 }
 </script>
