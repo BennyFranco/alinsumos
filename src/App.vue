@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <!-- Menu Component -->
-    <Menu/>  
+    <Menu/>
     <MainContent/>
     <MainInfo/>
+    <Footer>
+    </Footer>
   </div>
 </template>
 
@@ -16,6 +18,7 @@ import Header from './components/Header.vue'
 import MainContent from './components/main_content/MainContent.vue'
 import MainInfo from './components/main_content/components/MainInfo.vue'
 import Menu from './components/Menu.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
@@ -24,7 +27,8 @@ export default {
     Header,
     Menu,
     MainContent,
-    MainInfo
+    MainInfo,
+    Footer
   }
 }
 </script>
