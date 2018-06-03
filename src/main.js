@@ -7,7 +7,7 @@ import VueTypedJs from 'vue-typed-js'
 
 import MainContent from '@/components/main_content/MainContent.vue'
 import ProductGrain from '@/components/products/ProductGrain.vue'
-
+import FodderCorn from '@/components/products/components/FodderCorn.vue'
 
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
@@ -19,7 +19,13 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: MainContent },
-  { path: '/granos', component: ProductGrain }
+  {
+    path: '/productos/granos',
+    component: ProductGrain,
+    children: [
+      { path: 'maiz-forrajero', components: { grains: FodderCorn}, alias: '/productos/granos' }
+    ]
+  }
 ]
 
 const router = new VueRouter({
