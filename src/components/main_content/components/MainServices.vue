@@ -6,7 +6,7 @@
   <div class="row">
     <div class="col-sm-6 col-md-4" v-for="(service,key) in Services" v-bind:item="service" v-bind:index="key"  v-bind:key="key">
       <div class="thumbnail">
-        <img class="img-rounded" :src="service.image" alt="">
+        <img class="rounded" :src="service.image" alt="">
         <div class="caption">
           <h3>{{service.title}}</h3>
           <p >{{service.description | truncate(300)}} <p>
