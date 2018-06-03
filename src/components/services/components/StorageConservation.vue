@@ -1,6 +1,6 @@
 <template>
 <div class="card custom">
-  <img class="card-img-top" src="" alt="Card image cap">
+  <img class="card-img-top" src="images/services/01-silos.jpg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Almacenaje y Conservación</h5>
     <p class="card-text">
