@@ -6,6 +6,7 @@ import BootstrapVue from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
 
 import MainContent from '@/components/main_content/MainContent.vue'
+import Directory from '@/components/Directory.vue'
 import ProductGrain from '@/components/products/ProductGrain.vue'
 import FodderCorn from '@/components/products/components/FodderCorn.vue'
 import TortillaCorn from '@/components/products/components/TortillaCorn.vue'
@@ -24,6 +25,7 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: MainContent },
+  { path: '/directorio', component: Directory},
   {
     path: '/productos/granos',
     component: ProductGrain,

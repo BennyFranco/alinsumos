@@ -11,9 +11,7 @@
           <abbr title="Teléfono">T:</abbr> +52 (644) 413 99 29
         </address>
       <p>O consulta nuestro directorio:</p>
-      <p>
-        <a routerLink="/directory" routerLinkActive="active"  class="btn btn-default" role="button">Ver directorio</a>
-      </p>
+      <b-button size="sm" variant="outline-success" href="directorio">Ver directorio</b-button>
     </div>
     <div class="col-sm-4">
       <div class="row">
