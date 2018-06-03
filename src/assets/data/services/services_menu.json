@@ -2,46 +2,46 @@
     "services":
     [
         {
-            "title": "Para Financiera",
+            "title": "ParaFinanciera",
             "image": "images/services/pasillo.jpg",
-            "description": "La Parafinanciera ALIFIN tiene como Principal Objetivo el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.",
-            "link": "ParaFinanciera"
+            "description": "La ParaFinanciera ALIFIN tiene como Principal Objetivo el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.",
+            "link": "/servicios/ParaFinanciera"
         },
         {
-            "title": "Despepitadora de Algodón",
+            "title": "Despepitadora de algodón",
             "image": "images/services/cotton.jpg",
             "description": "En Alinsumos estamos siempre al pendiente de las necesidades de nuestros productores, razón por la cual ponemos en marcha la planta despepitadora de algodón, ubicada en calle 600 y 3 del valle del yaqui cuenta con dos plantas una Murray 1080 y una Murray 690 con capacidad de 350 pacas diarias, con la cual se dará servicio a más de 4000 has.",
-            "link": "Cotton"
+            "link": "/servicios/despepitadora-de-algodon"
         },
         {
-            "title": "Pignoración de Granos",
+            "title": "Pignoración de granos",
             "image": "images/services/trigo_granos.jpg",
             "description": "Se refiere al término pignorar que significa 'dar o dejar en prenda'. Es cuando se deposita temporalmente la totalidad o una parte de la cosecha y se obtiene un documento expedido por un almacén general de depósito que certifica la existencia del grano, mediante el cual, el productor esta en posibilidad de obtener un crédito prendario con un agente financiero.",
-            "link": "PignoracionGranos"
+            "link": "/servicios/pignoracion-de-granos"
         },
         {
-            "title": "Secado de Granos",
+            "title": "Secado de granos",
             "image": "images/services/secado_grano.jpg",
             "description": "Los granos, como es bien conocido, no pueden conservarse almacenados si no están secos. La cuestión es determinar cuándo un grano se considera 'seco'. Como término general, para los granos como Maíz y Sorgo, una humedad del 14% se considera el límite para estimarlo como 'seco'. En el caso del Trigo Cristalino y Harinero 12 % se considera su límite.",
-            "link": "SecadoGrano"
+            "link": "/servicios/secado-de-grano"
         },
         {
             "title": "Transporte de mercancía",
             "image": "images/services/transporte.jpg",
             "description": "En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.",
-            "link": "TransporteMercancia"
+            "link": "/servicios/transporte-de-mercancia"
         },
         {
             "title": "Importación de granos",
             "image": "images/services/maiz_cribado.jpg",
             "description": "El Comercio Exterior es el intercambio de bienes, servicios y capitales entre diferentes países. Cuando un país necesita ingresar productos se produce la importación, la que es definida como 'la introducción legal de mercancía extranjera para su uso o consumo del país'",
-            "link": "ImportacionGranos"
+            "link": "/servicios/importacion-de-granos"
         },
         {
             "title": "Almacenaje y conservación",
             "image": "images/services/silos_costales.jpg",
             "description": "El valor económico, alimenticio agrícola e industrial asociado a los granos y semillas requieren de cuidados especiales para garantizar su calidad y esta debe mantenerse durante el tiempo necesario hasta el momento de su uso. El almacenamiento se refiere a la concentración de algún producto o insumo en lugares especialmente diseñados para tal efecto.",
-            "link": "AlmacenajeConservacion"
+            "link": "/servicios/almacenaje-y-conservacion"
         }
     ]
   }
