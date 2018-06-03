@@ -167,12 +167,6 @@ h4 {
   color: #fff;
 }
 
-footer i.fas.fa-chevron-up {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #884F20;
-}
-
 .slideanim {
   visibility: hidden;
 }

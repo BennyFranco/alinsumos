@@ -36,9 +36,15 @@ export default {
 
 <style scoped>
     li {
-    list-style: none;
+      list-style: none;
     }
     * {
-    font-size: small;
+      font-size: small;
+    }
+
+    svg.svg-inline--fa.fa-chevron-up.fa-w-14 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #884F20;
     }
 </style>
