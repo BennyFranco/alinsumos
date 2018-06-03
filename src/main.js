@@ -10,6 +10,11 @@ import ProductGrain from '@/components/products/ProductGrain.vue'
 import FodderCorn from '@/components/products/components/FodderCorn.vue'
 import TortillaCorn from '@/components/products/components/TortillaCorn.vue'
 
+import Services from '@/components/services/Services.vue'
+import ForFinancial from '@/components/services/components/ForFinancial.vue'
+import CottonGins from '@/components/services/components/CottonGins.vue'
+import PledgeGrains from '@/components/services/components/PledgeGrains.vue'
+
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
 Vue.use(BootstrapVue);
@@ -26,6 +31,15 @@ const routes = [
     children: [
       { path: 'maiz-forrajero', components: { grains: FodderCorn}, alias: '/productos/granos' },
       { path: 'maiz-tortillero', components: { grains: TortillaCorn} }
+    ]
+  },
+  {
+    path: '/servicios',
+    component: Services,
+    children: [
+      { path: 'parafinanciera', components: { services: ForFinancial}, alias: '/servicios' },
+      { path: 'despepitadora-algodon', components: { services: CottonGins} },
+      { path: 'pignoracion-granos', components: { services: PledgeGrains} }
     ]
   }
 ]
