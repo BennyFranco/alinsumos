@@ -43,6 +43,14 @@ import WheatFlour from '@/components/products/components/flours/Wheat.vue'
 
 //  -------------------- End Flours --------------------  //
 
+//  ---------------------- Oils ----------------------  //
+
+import ProductOil from '@/components/products/ProductOil.vue'
+import Animal from '@/components/products/components/oils/Animal.vue'
+import Vegetal from '@/components/products/components/oils/Vegetal.vue'
+
+//  -------------------- End Oils --------------------  //
+
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
 Vue.use(BootstrapVue);
@@ -87,6 +95,14 @@ const routes = [
       { path: 'sangre', components: { flours: Blood} },
       { path: 'pescado', components: { flours: Fish} },
       { path: 'trigo', components: { flours: WheatFlour} }
+    ]
+  },
+  {
+    path: '/productos/grasas',
+    component: ProductOil,
+    children: [
+      { path: 'animal', components: { oils: Animal}, alias: '/productos/grasas' },
+      { path: 'vegetal', components: { oils: Vegetal} }
     ]
   }
 ]
