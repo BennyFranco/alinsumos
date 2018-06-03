@@ -9,8 +9,8 @@
       <b-navbar-nav class="ml-auto">
           <b-nav-item href="#top">Inicio</b-nav-item>
           <b-nav-item href="#about">Nosotros</b-nav-item>
-          <b-nav-item href="#services">Productos</b-nav-item>
-          <b-nav-item href="#products">Servicios</b-nav-item>
+          <b-nav-item href="#products">Productos</b-nav-item>
+          <b-nav-item href="#services">Servicios</b-nav-item>
           <b-nav-item href="#contact">Contáctanos</b-nav-item>
       </b-navbar-nav>
 

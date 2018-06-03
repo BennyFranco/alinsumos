@@ -2,7 +2,7 @@
   <div id="app">
     <!-- Menu Component -->
     <Menu/>
-    <MainContent/>
+    <router-view></router-view>
     <Footer/>
   </div>
 </template>
@@ -11,17 +11,13 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import HelloWorld from './components/HelloWorld.vue'
-import MainContent from './components/main_content/MainContent.vue'
 import Menu from './components/Menu.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     Menu,
-    MainContent,
     Footer
   }
 }
