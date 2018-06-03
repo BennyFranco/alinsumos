@@ -4,7 +4,7 @@
         <h1>Servicios</h1>
     </div>
     <div class="row">
-        <div class="col-sm-4 col-md-2">
+        <div class="col-sm-5 col-md-3">
             <!-- <b-nav vertical class="w-25"> -->
             <b-nav vertical pills>
               <b-nav-item to="/servicios/parafinanciera">ParaFinanciera</b-nav-item>
@@ -16,7 +16,7 @@
               <b-nav-item to="/servicios/almacenaje-y-conservacion">Almacenaje y conservación</b-nav-item>
             </b-nav>
         </div>
-        <div class="col-sm-8 col-md-10">
+        <div class="col-sm-7 col-md-9">
            <router-view name="services"></router-view>
         </div>
     </div>
