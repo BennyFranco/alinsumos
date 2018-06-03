@@ -29,19 +29,31 @@ export default {
   methods: {
     updateScroll:function() {
       this.scrollPosition = window.scrollY
-      if(window.scrollY > 500) {
+      if(this.$route.path == "/")
+      {
+        if(window.scrollY > 500) {
+            if(document.getElementsByTagName("nav")[0].classList.contains("v-end"))
+              document.getElementsByTagName("nav")[0].classList.remove("v-end");
+            document.getElementsByTagName("nav")[0].classList.add("v-start");
+        } else {
+            if(document.getElementsByTagName("nav")[0].classList.contains("v-start"))
+              document.getElementsByTagName("nav")[0].classList.remove("v-start");
+            document.getElementsByTagName("nav")[0].classList.add("v-end");
+        }
+      }
+    },
+    menuMustbeTransparent () {
+        if(this.$route.path != "/")
+        {
           if(document.getElementsByTagName("nav")[0].classList.contains("v-end"))
             document.getElementsByTagName("nav")[0].classList.remove("v-end");
           document.getElementsByTagName("nav")[0].classList.add("v-start");
-      } else {
-          if(document.getElementsByTagName("nav")[0].classList.contains("v-start"))
-            document.getElementsByTagName("nav")[0].classList.remove("v-start");
-          document.getElementsByTagName("nav")[0].classList.add("v-end");
+        }
       }
-    }
   },
   mounted() {
     window.addEventListener('scroll', this.updateScroll);
+    window.addEventListener('load', this.menuMustbeTransparent);
   }
 }
 </script>
