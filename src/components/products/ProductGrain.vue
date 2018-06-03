@@ -9,10 +9,10 @@
             <b-nav vertical pills>
               <b-nav-item to="/productos/granos/maiz-forrajero">Maíz forrajero</b-nav-item>
               <b-nav-item to="/productos/granos/maiz-tortillero">Maíz tortillero</b-nav-item>
-              <b-nav-item>Trigo</b-nav-item>
-              <b-nav-item>Sorgo</b-nav-item>
-              <b-nav-item>Semilla de Algodón</b-nav-item>
-              <b-nav-item>Cártamo</b-nav-item>
+              <b-nav-item to="/productos/granos/trigo">Trigo</b-nav-item>
+              <b-nav-item to="/productos/granos/sorgo">Sorgo</b-nav-item>
+              <b-nav-item to="/productos/granos/semilla-algodon">Semilla de Algodón</b-nav-item>
+              <b-nav-item to="/productos/granos/cartamo">Cártamo</b-nav-item>
             </b-nav>
         </div>
         <div class="col-sm-8 col-md-10">
