@@ -39,5 +39,9 @@ const router = new VueRouter({
 
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(App),
+  mounted () {
+    // You'll need this for renderAfterDocumentEvent.
+    document.dispatchEvent(new Event('render-event'))
+  }
 }).$mount('#app')
