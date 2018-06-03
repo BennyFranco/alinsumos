@@ -4,6 +4,7 @@ import App from './App.vue'
 
 import BootstrapVue from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
+import VueScrollTo from 'vue-scrollto';
 
 import MainContent from '@/components/main_content/MainContent.vue'
 import Directory from '@/components/Directory.vue'
@@ -62,7 +63,8 @@ import StorageConservation from '@/components/services/components/StorageConserv
 
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
-Vue.use(BootstrapVue);
+Vue.use(BootstrapVue)
+Vue.use(VueScrollTo)
 
 Vue.config.productionTip = false
 

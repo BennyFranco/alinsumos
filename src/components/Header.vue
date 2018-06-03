@@ -1,6 +1,6 @@
 <template>
     <div class="parallax" id="top">
-    <!-- Parallax Content -->    
+    <!-- Parallax Content -->
         <div class="jumbotron text-center">
             <div class="title-elements">
             <div class="title-text">

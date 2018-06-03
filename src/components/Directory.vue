@@ -1,5 +1,5 @@
 <template>
-<div id="directory" class="container-fluid">
+<div id="top" class="container-fluid">
   <div class="page-header">
     <h1>Directorio</h1>
   </div>

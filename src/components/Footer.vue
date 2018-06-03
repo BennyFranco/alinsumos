@@ -21,7 +21,7 @@
                 <h6>Enlaces</h6>
             </div>
         </div>
-        <a href="#" title="Inicio">
+        <a href="#" title="Inicio" v-scroll-to="'#top'">
             <i class="fas fa-chevron-up"></i>
         </a>
     </footer>
