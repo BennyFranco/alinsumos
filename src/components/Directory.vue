@@ -10,12 +10,12 @@
           <address>
             <h4>{{contact.mainName}}</h4>
             <hr>
-            <strong><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Correo electrónico:</strong><br>
+            <strong><i class="far fa-envelope"></i> Correo electrónico:</strong><br>
             <a :href="'mailto:'+contact.email">{{contact.email}}</a>
-            <p  v-if="contact.phone"><b><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Extensión: </b>{{contact.phone}}</p>
-            <strong  v-if="contact.secondEmail"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Correo electrónico:</strong><br>
+            <p  v-if="contact.phone"><b><i class="fas fa-phone"></i> Extensión: </b>{{contact.phone}}</p>
+            <strong  v-if="contact.secondEmail"><i class="far fa-envelope"></i> Correo electrónico:</strong><br>
             <a v-if="contact.secondEmail" :href="'mailto:'+contact.secondEmail">{{contact.secondEmail}}</a>
-            <p v-if="contact.secondPhone"><b><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Extensión: </b>{{contact.secondPhone}}</p>
+            <p v-if="contact.secondPhone"><b><i class="fas fa-phone"></i> Extensión: </b>{{contact.secondPhone}}</p>
           </address>
           <br/>
           <hr>

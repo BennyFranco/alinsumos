@@ -167,7 +167,7 @@ h4 {
   color: #fff;
 }
 
-footer .glyphicon {
+footer i.fas.fa-chevron-up {
   font-size: 20px;
   margin-bottom: 20px;
   color: #884F20;

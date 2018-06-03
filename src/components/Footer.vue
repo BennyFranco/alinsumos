@@ -22,7 +22,7 @@
             </div>
         </div>
         <a href="#" title="Inicio">
-            <span class="glyphicon glyphicon-chevron-up"></span>
+            <i class="fas fa-chevron-up"></i>
         </a>
     </footer>
 </div>
