@@ -7,8 +7,8 @@
         <div class="col-sm-4 col-md-2">
             <!-- <b-nav vertical class="w-25"> -->
             <b-nav vertical pills>
-              <b-nav-item active href="/productos/granos/maiz-forrajero">Maíz forrajero</b-nav-item>
-              <b-nav-item>Maíz tortillero</b-nav-item>
+              <b-nav-item to="/productos/granos/maiz-forrajero">Maíz forrajero</b-nav-item>
+              <b-nav-item to="/productos/granos/maiz-tortillero">Maíz tortillero</b-nav-item>
               <b-nav-item>Trigo</b-nav-item>
               <b-nav-item>Sorgo</b-nav-item>
               <b-nav-item>Semilla de Algodón</b-nav-item>
