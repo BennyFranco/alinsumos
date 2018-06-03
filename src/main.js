@@ -33,6 +33,16 @@ import WheatBran from '@/components/products/components/pastas/WheatBran.vue'
 
 //  -------------------- End Grains --------------------  //
 
+//  ---------------------- Flours ----------------------  //
+
+import ProductFlour from '@/components/products/ProductFlour.vue'
+import Blood from '@/components/products/components/flours/Blood.vue'
+import Fish from '@/components/products/components/flours/Fish.vue'
+import MeatBone from '@/components/products/components/flours/MeatBone.vue'
+import WheatFlour from '@/components/products/components/flours/Wheat.vue'
+
+//  -------------------- End Flours --------------------  //
+
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
 Vue.use(BootstrapVue);
@@ -67,6 +77,16 @@ const routes = [
       { path: 'nuez', components: { pastas: Nut} },
       { path: 'arroz', components: { pastas: Rice} },
       { path: 'salvado-trigo', components: { pastas: WheatBran} }
+    ]
+  },
+  {
+    path: '/productos/harinas',
+    component: ProductFlour,
+    children: [
+      { path: 'carne-hueso', components: { flours: MeatBone}, alias: '/productos/harinas' },
+      { path: 'sangre', components: { flours: Blood} },
+      { path: 'pescado', components: { flours: Fish} },
+      { path: 'trigo', components: { flours: WheatFlour} }
     ]
   }
 ]
