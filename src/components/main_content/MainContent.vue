@@ -46,8 +46,18 @@
   <MainProducts/>
 <!-- Products info -->
 
+<!-- Services component -->
+<MainServices/>
+<!-- Services -->
+
+<!-- Contact component -->
   <Contact/>
+<!-- Contact -->
+
+<!-- Map component -->
   <Map/>
+<!-- Map -->
+
 </div>
 </template>
 
@@ -55,6 +65,7 @@
 import Header from '../Header.vue'
 import MainInfo from './components/MainInfo.vue'
 import MainProducts from './components/MainProducts.vue'
+import MainServices from './components/MainServices.vue'
 import Map from './components/Map.vue'
 import Contact from './components/Contact.vue'
 
@@ -64,6 +75,7 @@ export default {
     Header,
     MainInfo,
     MainProducts,
+    MainServices,
     Map,
     Contact
   }
