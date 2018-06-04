@@ -6,6 +6,7 @@ const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 if (process.env.NODE_ENV === 'production') {
   // mutate config for production...
   module.exports = {
+    baseUrl: '/',
     configureWebpack: {
       plugins: [
         new PrerenderSPAPlugin({
@@ -42,5 +43,11 @@ if (process.env.NODE_ENV === 'production') {
         })
       ]
     }
+  }
+}
+else if (process.env.NODE_ENV === 'release') {
+  // mutate config for production...
+  module.exports = {
+    baseUrl: '/alinsumos'
   }
 }
