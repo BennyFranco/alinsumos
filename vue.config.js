@@ -1,5 +1,4 @@
 var path = require('path')
-// var webpack = require('webpack')
 const PrerenderSPAPlugin = require('prerender-spa-plugin')
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
@@ -45,9 +44,8 @@ if (process.env.NODE_ENV === 'production') {
     }
   }
 }
-else if (process.env.NODE_ENV === 'release') {
-  // mutate config for production...
+else {
   module.exports = {
-    baseUrl: '/alinsumos'
+    baseUrl: '/alinsumos',
   }
 }
