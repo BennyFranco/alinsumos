@@ -71,13 +71,13 @@ Vue.config.productionTip = false
 // =============== Routing =============== //
 
 const routes = [
-  { path: '/', component: MainContent },
-  { path: '/directorio', component: Directory},
+  { path: './', component: MainContent },
+  { path: './directorio', component: Directory},
   {
-    path: '/productos/granos',
+    path: './productos/granos',
     component: ProductGrain,
     children: [
-      { path: 'maiz-forrajero', components: { grains: FodderCorn}, alias: '/productos/granos' },
+      { path: 'maiz-forrajero', components: { grains: FodderCorn}, alias: './productos/granos' },
       { path: 'maiz-tortillero', components: { grains: TortillaCorn} },
       { path: 'trigo', components: { grains: Wheat} },
       { path: 'sorgo', components: { grains: Sorghum} },
@@ -86,10 +86,10 @@ const routes = [
     ]
   },
   {
-    path: '/productos/pastas',
+    path: './productos/pastas',
     component: ProductPasta,
     children: [
-      { path: 'soya', components: { pastas: Soy}, alias: '/productos/pastas' },
+      { path: 'soya', components: { pastas: Soy}, alias: './productos/pastas' },
       { path: 'canola', components: { pastas: Canola} },
       { path: 'ddgs', components: { pastas: DDGS} },
       { path: 'cartamo', components: { pastas: SafflowerPasta} },
@@ -99,28 +99,28 @@ const routes = [
     ]
   },
   {
-    path: '/productos/harinas',
+    path: './productos/harinas',
     component: ProductFlour,
     children: [
-      { path: 'carne-hueso', components: { flours: MeatBone}, alias: '/productos/harinas' },
+      { path: 'carne-hueso', components: { flours: MeatBone}, alias: './productos/harinas' },
       { path: 'sangre', components: { flours: Blood} },
       { path: 'pescado', components: { flours: Fish} },
       { path: 'trigo', components: { flours: WheatFlour} }
     ]
   },
   {
-    path: '/productos/grasas',
+    path: './productos/grasas',
     component: ProductOil,
     children: [
-      { path: 'animal', components: { oils: Animal}, alias: '/productos/grasas' },
+      { path: 'animal', components: { oils: Animal}, alias: './productos/grasas' },
       { path: 'vegetal', components: { oils: Vegetal} }
     ]
   },
   {
-    path: '/servicios',
+    path: './servicios',
     component: Services,
     children: [
-      { path: 'parafinanciera', components: { services: ForFinancial}, alias: '/servicios' },
+      { path: 'parafinanciera', components: { services: ForFinancial}, alias: './servicios' },
       { path: 'despepitadora-de-algodon', components: { services: CottonGins} },
       { path: 'pignoracion-de-granos', components: { services: PledgeGrains} },
       { path: 'secado-de-grano', components: { services: DryingGrains} },
