@@ -1,5 +1,5 @@
 <template>
-<div class="card custom">
+<div class="card custom appear">
   <figure>
     <img class="card-img-top" src="/images/services/importacion.jpg" alt="Card image cardBodyCustom">
   </figure>
@@ -42,5 +42,27 @@ figure{
 figure img{
    display:block; /*remove inline-block spaces*/
    width:100%; /*make image streatch*/
+}
+.appear{
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 0.25s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {filter:blur(50px);}
+    25%  {filter:blur(25px);}
+    50%  {filter:blur(12.5px);}
+    100% {filter:blur(0px);}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {filter:blur(50px);}
+    25%  {filter:blur(25px);}
+    50%  {filter:blur(12.5px);}
+    100% {filter:blur(0px);}
 }
 </style>

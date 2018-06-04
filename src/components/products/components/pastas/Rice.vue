@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid">
+<div class="container-fluid appear">
   <h3>Arroz</h3>
   <hr/>
   <div class="row">
@@ -45,5 +45,27 @@ img{
 }
 hr{
   margin-bottom: 2%;
+}
+.appear{
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 0.25s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {filter:blur(50px);}
+    25%  {filter:blur(25px);}
+    50%  {filter:blur(12.5px);}
+    100% {filter:blur(0px);}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {filter:blur(50px);}
+    25%  {filter:blur(25px);}
+    50%  {filter:blur(12.5px);}
+    100% {filter:blur(0px);}
 }
 </style>
