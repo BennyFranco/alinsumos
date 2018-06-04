@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="md" type="" variant="" fixed="top">
-    <b-navbar-brand href="/"><img src="/images/imagotipo_web.svg" alt="Alinsumos"/></b-navbar-brand>
+    <b-navbar-brand href="./"><img src="images/imagotipo_web.svg" alt="Alinsumos"/></b-navbar-brand>
 
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -8,11 +8,11 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
           <b-nav-item v-if="this.$route.path == '/'" href="/#top" v-scroll-to="'#top'">Inicio</b-nav-item>
-          <b-nav-item v-else href="/">Inicio</b-nav-item>
-          <b-nav-item href="/#about"    v-scroll-to="'#about'">Nosotros</b-nav-item>
-          <b-nav-item href="/#products" v-scroll-to="'#products'">Productos</b-nav-item>
-          <b-nav-item href="/#services" v-scroll-to="'#services'">Servicios</b-nav-item>
-          <b-nav-item href="/#contact"  v-scroll-to="'#contact'">Contáctanos</b-nav-item>
+          <b-nav-item v-else href="./">Inicio</b-nav-item>
+          <b-nav-item href="./#about"    v-scroll-to="'#about'">Nosotros</b-nav-item>
+          <b-nav-item href="./#products" v-scroll-to="'#products'">Productos</b-nav-item>
+          <b-nav-item href="./#services" v-scroll-to="'#services'">Servicios</b-nav-item>
+          <b-nav-item href="./#contact"  v-scroll-to="'#contact'">Contáctanos</b-nav-item>
       </b-navbar-nav>
 
     </b-collapse>
