@@ -43,12 +43,12 @@ export default {
   height: 350px;
 }
 figure{
-   height: 300px; /*container-width*/
-   overflow:hidden; /*hide bounds of image */
-   margin:0;   /*reset margin of figure tag*/
+   height: 300px;
+   overflow:hidden;
+   margin:0;
 }
 figure img{
-   display:block; /*remove inline-block spaces*/
-   width:100%; /*make image streatch*/
+   display:block;
+   width:100%;
 }
 </style>
