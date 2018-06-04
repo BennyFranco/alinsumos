@@ -1,7 +1,9 @@
 <template>
-<div class="card custom ">
-  <img class="card-img-top" src="" alt="Card image cap">
-  <div class="card-body">
+<div class="card custom">
+    <figure>
+        <img class="card-img-top" src="/images/services/equipos_transporte.jpg" alt="Card image cap">
+    </figure>
+  <div class="card-body cardBodyCustom">
     <h5 class="card-title">Transporte de mercancía</h5>
     <p class="card-text">En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.</p>
   </div>
@@ -16,12 +18,23 @@ export default {
 
 <style scoped>
 .custom{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 5%;
+}
+.cardBodyCustom{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+figure{
+   height: 300px; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
 }
 </style>

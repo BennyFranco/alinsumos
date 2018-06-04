@@ -1,7 +1,9 @@
 <template>
 <div class="card custom">
-  <img class="card-img-top" src="" alt="Card image cap">
-  <div class="card-body">
+  <figure>
+    <img class="card-img-top" src="/images/services/importacion.jpg" alt="Card image cardBodyCustom">
+  </figure>
+  <div class="card-body cardBodyCustom">
     <h5 class="card-title">Importación de granos</h5>
     <p class="card-text">
       El Comercio Exterior es el intercambio de bienes, servicios y capitales entre diferentes países. Cuando un país necesita ingresar productos se produce la importación, la que es definida como "la introducción legal de mercancía extranjera para su uso o consumo del país".
@@ -22,12 +24,23 @@ export default {
 
 <style scoped>
 .custom{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 5%;
+}
+.cardBodyCustom{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+figure{
+   height: 300px; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
 }
 </style>

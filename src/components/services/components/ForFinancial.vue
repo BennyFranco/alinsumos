@@ -1,6 +1,9 @@
 <template>
 <div class="card custom">
-  <div class="card-body">
+  <figure>
+    <img class="card-img-top" src="/images/services/alfin.jpg" alt="Card image">
+  </figure>
+  <div class="card-body cardBodyCustom">
     <h5 class="card-title aling">Objetivo</h5>
     <p class="card-text">La ParaFinanciera ALIFIN tiene como Principal Objetivo el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.</p>
     <h5 class="card-title">Misión</h5>
@@ -15,7 +18,6 @@
     <br/>
     <p class="card-text">ALIFIN cuenta con un esquema parafinanciero (documentado y garantizado), con reglas de operaciones claras y sencillas, que apoyan a los productores y organizaciones con las que trabajamos para poder tener beneficios mutuos mediante un esquema de crédito que asegure la recuperación de la inversión del productor y por ende la recuperación del crédito.</p>
   </div>
-<img class="card-img-bottom cut" src="/images/services/pasillo.jpg" alt="Card image">
 </div>
 </template>
 
@@ -26,18 +28,27 @@ export default {
 </script>
 
 <style scoped>
-.cut{
-  width: 300px;
-  height: 200px;
-  align-self: center;
-}
 .custom{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 5%;
+}
+.cardBodyCustom{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+.cut{
+  height: 350px;
+}
+figure{
+   height: 300px; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
 }
 </style>

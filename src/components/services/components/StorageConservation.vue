@@ -1,7 +1,9 @@
 <template>
 <div class="card custom">
-  <img class="card-img-top" src="images/services/01-silos.jpg" alt="Card image cap">
-  <div class="card-body">
+    <figure>
+        <img class="card-img-top" src="/images/services/conservacion.jpg" alt="Card image cap">
+    </figure>
+  <div class="card-body cardBodyCustom">
     <h5 class="card-title">Almacenaje y Conservación</h5>
     <p class="card-text">
       El valor económico, alimenticio agrícola e industrial asociado a los granos y semillas requieren de cuidados especiales para garantizar su calidad y esta debe mantenerse durante el tiempo necesario hasta el momento de su uso. El almacenamiento se refiere a la concentración de algún producto o insumo en lugares especialmente diseñados para tal efecto. Para ello contamos con la infraestructura necesaria para cumplir con esta condición tal es el caso de silos y bodegas con controles y sistemas para monitorear temperatura y humedad, con capacidades desde 17,500 TM, así como áreas a nivel de piso comúnmente llamadas “Bunkers” debidamente acondicionadas para tal funcionamiento con capacidad de 50,000 TM. Con estas instalaciones se garantiza que el producto no sufrirá daño que pueden ser causados por el medio ambiente, plagas etc.
@@ -21,12 +23,23 @@ export default {
 
 <style scoped>
 .custom{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 5%;
+}
+.cardBodyCustom{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+figure{
+   height: 300px; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
 }
 </style>
