@@ -4,9 +4,7 @@
     <h4>Familia de productos</h4>
       <div class="row">
         <div class="col-6 col-md-3" v-for="(product,key) in Products" v-bind:item="product" v-bind:index="key"  v-bind:key="key">
-            <a :href="product.link">
-              <img :src="product.image" :alt="product.title" class="img-thumbnail">
-            </a>
+            <router-link :to="product.link"><img :src="product.image" :alt="product.title" class="img-thumbnail"></router-link>
             <div class="align-text-bottom">
               <h3>{{product.title}}</h3>
             </div>

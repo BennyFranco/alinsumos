@@ -48,17 +48,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* The image used */
-.parallax {
-  background-image: url('../../../../public/images/corn-header.jpg');
-  /* Full height */
-  height: 100vh;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .charmain-video {
   width: 320px;
   height: 250px;

@@ -46,6 +46,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 else {
   module.exports = {
-    baseUrl: '/alinsumos',
+    baseUrl: '/alinsumos/'
   }
 }

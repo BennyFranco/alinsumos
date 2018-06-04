@@ -10,7 +10,7 @@
         <div class="caption">
           <h3>{{service.title}}</h3>
           <p >{{service.description | truncate(300)}} <p>
-              <b-button size="sm" variant="outline-success" :href="service.link">Ver más</b-button>
+              <b-button size="sm" variant="outline-success" :to="service.link">Ver más</b-button>
           </p>
         </div>
       </div>

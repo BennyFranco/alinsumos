@@ -24,14 +24,6 @@ export default {
 </script>
 
 <style>
-/*
-#884F20: #884F20;
-#FEC32B: #FEC32B;
-#77A23D: #77A23D;
-#77A23D-active: #5a7b2e;
-
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
@@ -59,7 +51,7 @@ h4 {
 
 .parallax {
   /* The image used */
-  background-image: url('../public/images/corn-header.jpg');
+  background-image: url('~/images/corn-header.jpg');
   /* Full height */
   height: 100vh;
   /* Create the parallax scrolling effect */
