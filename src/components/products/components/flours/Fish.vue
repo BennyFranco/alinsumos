@@ -1,14 +1,14 @@
 <template>
-<div class="row">
+<div class="container-fluid">
   <h3>Harina de pescado</h3>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-3">
-        <img class="img-responsive" alt="Maíz Forrajero" src="http://via.placeholder.com/200x200" />
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-9">
-        <p>
-          Es la mejor fuente de energía concentrada para la alimentación de animales. Con un 70% a 80% del producto en
+  <hr/>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
+      <img class="img-responsive rounded" alt="Harina de pescado" src="/images/products/flours/pescado.jpg" />
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-9">
+      <p class="rounded textContent">
+        Es la mejor fuente de energía concentrada para la alimentación de animales. Con un 70% a 80% del producto en
           forma de proteína y grasa digerible, su contenido de energía es notablemente mayor que muchas otras proteínas
           animales o vegetales ya que proporciona una fuente concentrada de proteína de alta calidad y una grasa rica en
           ácidos grasos omega-3 indispensable para el rápido crecimiento de los animales. Como alimento para aves, cerdos,
@@ -16,10 +16,9 @@
           los costos de producción industrial de estos animales por su rápido crecimiento, su mejor nutrición, la mejora
           de la fertilidad y la notoria disminución de posibilidades de enfermedades.
         </p>
-      </div>
-      <br/>
     </div>
   </div>
+  <hr/>
 </div>
 </template>
 
@@ -30,5 +29,25 @@ export default {
 </script>
 
 <style scoped>
-
+.textContent{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.imageContent{
+margin-top: 2%;
+margin-bottom: 2%;
+align-self: center;
+}
+img{
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+hr{
+  margin-bottom: 2%;
+}
 </style>
