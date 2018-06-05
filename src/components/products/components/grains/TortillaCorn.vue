@@ -13,7 +13,7 @@
       </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="Maíz Tortillero" src="/images/products/grains/maiz-tortillero.jpg" />
+      <img class="img-responsive rounded" alt="Maíz Tortillero" :src="base_url+'static/images/products/grains/maiz-tortillero.jpg'" />
     </div>
   </div>
   <hr/>
@@ -23,7 +23,12 @@
 
 <script>
 export default {
-  name: 'TortillaCorn'
+  name: 'TortillaCorn',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 

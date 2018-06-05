@@ -17,7 +17,7 @@
         </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="Harina de sangre" src="/images/products/flours/sangre.jpg" />
+      <img class="img-responsive rounded" alt="Harina de sangre" :src="base_url+'static/images/products/flours/sangre.jpg'" />
     </div>
   </div>
   <hr/>
@@ -26,7 +26,12 @@
 
 <script>
 export default {
-  name: 'Blood'
+  name: 'Blood',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 

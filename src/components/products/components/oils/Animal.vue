@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="De origen animal" src="/images/products/oils/animal.jpg" />
+      <img class="img-responsive rounded" alt="De origen animal" :src="base_url+'static/images/products/oils/animal.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
       <p class="rounded textContent">
@@ -18,7 +18,12 @@
 
 <script>
 export default {
-  name: 'Animal'
+  name: 'Animal',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 

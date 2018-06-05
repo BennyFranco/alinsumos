@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="Salvado de Trigo" src="/images/products/pastas/salvado.jpg" />
+      <img class="img-responsive rounded" alt="Salvado de Trigo" :src="base_url+'static/images/products/pastas/salvado.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
       <p class="rounded textContent">
@@ -19,7 +19,12 @@
 
 <script>
 export default {
-  name: 'WheatBran'
+  name: 'WheatBran',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 
