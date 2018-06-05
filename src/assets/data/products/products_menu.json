@@ -1,0 +1,25 @@
+{
+  "products":
+  [
+      {
+          "title": "Granos",
+          "image": "static/images/products/trigo-manos.jpg",
+          "link": "productos/granos"
+      },
+      {
+          "title": "Pastas",
+          "image": "static/images/products/pasta.jpg",
+          "link": "productos/pastas"
+      },
+      {
+          "title": "Harinas",
+          "image": "static/images/products/harina.jpg",
+          "link": "productos/harinas"
+      },
+      {
+          "title": "Grasas y aceites",
+          "image": "static/images/products/grasas-aceites.jpg",
+          "link": "productos/grasas"
+      }
+  ]
+}
