@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="DDGs (Grano seco destilado de maíz)" src="/images/products/pastas/DDGs.jpg" />
+      <img class="img-responsive rounded" alt="DDGs (Grano seco destilado de maíz)" :src="base_url+'static/images/products/pastas/DDGs.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
       <p class="rounded textContent">
@@ -21,7 +21,12 @@
 
 <script>
 export default {
-  name: 'DDGS'
+  name: 'DDGS',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 

@@ -19,7 +19,7 @@
         </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="Canola" src="/images/products/pastas/canola.jpg" />
+      <img class="img-responsive rounded" alt="Canola" :src="base_url+'static/images/products/pastas/canola.jpg'" />
     </div>
   </div>
   <hr/>
@@ -28,7 +28,12 @@
 
 <script>
 export default {
-  name: 'Canola'
+  name: 'Canola',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 
