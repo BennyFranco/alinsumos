@@ -122,9 +122,11 @@ const webpackConfig = merge(baseWebpackConfig, {
     new PrerenderSPAPlugin({
       // Required - The path to the webpack-outputted app to prerender.
       staticDir: path.join(__dirname, '../dist'),
+      headless: false,
       // Required - Routes to render.
       routes: [
         '/',
+        '/directorio/',
         '/productos/granos/',
         '/productos/granos/maiz-forrajero',
         '/productos/granos/maiz-tortillero',
@@ -132,6 +134,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         '/productos/granos/sorgo',
         '/productos/granos/semilla-algodon',
         '/productos/granos/cartamo',
+        '/productos/pastas/',
         '/productos/pastas/soya',
         '/productos/pastas/canola',
         '/productos/pastas/ddgs',
@@ -139,10 +142,21 @@ const webpackConfig = merge(baseWebpackConfig, {
         '/productos/pastas/nuez',
         '/productos/pastas/arroz',
         '/productos/pastas/salvado-trigo',
+        '/productos/harinas/',
         '/productos/harinas/carne-hueso',
         '/productos/harinas/sangre',
         '/productos/harinas/pescado',
-        '/productos/harinas/trigo'
+        '/productos/harinas/trigo',
+        '/productos/grasas/',
+        '/productos/grasas/animal',
+        '/productos/grasas/vegetal',
+        '/servicios/parafinanciera',
+        '/servicios/despepitadora-de-algodon',
+        '/servicios/pignoracion-de-granos',
+        '/servicios/secado-de-grano',
+        '/servicios/transporte-de-mercancia',
+        '/servicios/importacion-de-granos',
+        '/servicios/almacenaje-y-conservacion'
       ]
     })
   ]
