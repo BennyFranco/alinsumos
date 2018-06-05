@@ -60,6 +60,8 @@ import DryingGrains from '@/components/services/components/DryingGrains.vue'
 import Trucking from '@/components/services/components/Trucking.vue'
 import ImportGrains from '@/components/services/components/ImportGrains.vue'
 import StorageConservation from '@/components/services/components/StorageConservation.vue'
+import Spur from '@/components/services/components/Spur.vue'
+import Sifting from '@/components/services/components/Sifting.vue'
 
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
@@ -126,7 +128,9 @@ const routes = [
       { path: 'secado-de-grano', components: { services: DryingGrains } },
       { path: 'transporte-de-mercancia', components: { services: Trucking } },
       { path: 'importacion-de-granos', components: { services: ImportGrains } },
-      { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } }
+      { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } },
+      { path: 'servicios/servicio-espuela', components: { services: Spur } },
+      { path: 'servicios/servicio-cribado', components: { services: Sifting } }
     ]
   }
 ]

@@ -14,6 +14,8 @@
               <b-nav-item to="/servicios/transporte-de-mercancia">Transporte de mercancía</b-nav-item>
               <b-nav-item to="/servicios/importacion-de-granos">Importación de granos</b-nav-item>
               <b-nav-item to="/servicios/almacenaje-y-conservacion">Almacenaje y conservación</b-nav-item>
+              <b-nav-item to="/servicios/servicio-espuela">Servicio de espuela</b-nav-item>
+              <b-nav-item to="/servicios/servicio-cribado">Servicio de cribado</b-nav-item>
             </b-nav>
         </div>
         <div class="col-sm-7 col-md-9">

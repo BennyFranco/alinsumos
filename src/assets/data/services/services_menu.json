@@ -42,6 +42,18 @@
             "image": "static/images/services/silos_costales.jpg",
             "description": "El valor económico, alimenticio agrícola e industrial asociado a los granos y semillas requieren de cuidados especiales para garantizar su calidad y esta debe mantenerse durante el tiempo necesario hasta el momento de su uso. El almacenamiento se refiere a la concentración de algún producto o insumo en lugares especialmente diseñados para tal efecto.",
             "link": "servicios/almacenaje-y-conservacion"
+        },
+        {
+            "title": "Servicio de espuela",
+            "image": "static/images/services/espuela_ferrocarril.jpg",
+            "description": "Se cuenta con una espuela de ferrocarril  con capacidad de 25 tolvas para comercialización y prestación de servicios de granos y pastas.",
+            "link": "servicios/servicio-espuela"
+        },
+        {
+            "title": "Servicio de cribado",
+            "image": "static/images/services/proceso_criba.jpg",
+            "description": "Se cuenta con servicios de cribado y almacenaje de diferentes granos para consumo humano y semillas con capacidad de 60 toneladas por hora.",
+            "link": "servicios/servicio-cribado"
         }
     ]
   }
