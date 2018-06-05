@@ -1,7 +1,7 @@
 <template>
 <div class="card custom appear">
   <figure>
-    <img class="card-img-top" src="/images/services/importacion.jpg" alt="Card image cardBodyCustom">
+    <img class="card-img-top" :src="base_url+'static/images/services/importacion.jpg'" alt="Card image cardBodyCustom">
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Importación de granos</h5>
@@ -18,7 +18,12 @@
 
 <script>
 export default {
-  name: 'ImportGrains'
+  name: 'ImportGrains',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 
