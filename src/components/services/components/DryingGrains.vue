@@ -1,7 +1,7 @@
 <template>
 <div class="card custom appear">
   <figure>
-    <img class="card-img-top" src="/images/services/secadora.jpg" alt="Card image cap">
+    <img class="card-img-top" :src="base_url+'static/images/services/secadora.jpg'" alt="Card image cap">
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Secado de granos</h5>
@@ -24,7 +24,12 @@
 
 <script>
 export default {
-  name: 'DryingGrains'
+  name: 'DryingGrains',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
 <div class="card custom appear">
   <figure>
-    <img class="card-img-top" src="/images/services/alfin.jpg" alt="Card image">
+    <img class="card-img-top" :src="base_url+'static/images/services/alfin.jpg'" alt="Card image">
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title aling">Objetivo</h5>
@@ -23,7 +23,12 @@
 
 <script>
 export default {
-  name: 'ForFinancial'
+  name: 'ForFinancial',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 

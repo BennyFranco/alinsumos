@@ -1,7 +1,7 @@
 <template>
 <div class="card custom appear">
   <figure>
-    <img class="card-img-top" src="/images/services/cotton_gins.jpg" alt="Card image cap">
+    <img class="card-img-top" :src="base_url+'static/images/services/cotton_gins.jpg'" alt="Card image cap">
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Despepitadora de algodón</h5>
@@ -12,7 +12,12 @@
 
 <script>
 export default {
-  name: 'CottonGins'
+  name: 'CottonGins',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
 }
 </script>
 
