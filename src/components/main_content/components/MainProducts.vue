@@ -14,24 +14,22 @@
 </template>
 
 <script>
-
 import ProductsJson from '../../../assets/data/products/products_menu.json'
 
 export default {
   name: 'MainProducts',
-  data()
-  {
-    return{
-        Products: ProductsJson.products
+  data () {
+    return {
+      Products: ProductsJson.products
     }
   }
 }
 </script>
 
 <style scoped>
-
-a.thumbnail:hover, a.thumbnail:active, a.thumbnail:focus {
+a.thumbnail:hover,
+a.thumbnail:active,
+a.thumbnail:focus {
   border-color: #77a23d;
 }
-
 </style>

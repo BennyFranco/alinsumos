@@ -2,7 +2,7 @@
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <img src="images/tolva_llenado.jpg" class="img-fluid rounded" />
+      <img src="static/images/tolva_llenado.jpg" class="img-fluid rounded" />
     </div>
     <div class="col-sm-8">
       <h2>Nuestros Valores</h2><br>
@@ -52,6 +52,5 @@ export default {
   width: 320px;
   height: 250px;
 }
-
 
 </style>

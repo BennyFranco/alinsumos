@@ -30,21 +30,21 @@
 
 <script>
 export default {
-    name:'Footer'
+  name: 'Footer'
 }
 </script>
 
 <style scoped>
-    li {
-      list-style: none;
-    }
-    * {
-      font-size: small;
-    }
+li {
+  list-style: none;
+}
+* {
+  font-size: small;
+}
 
-    svg.svg-inline--fa.fa-chevron-up.fa-w-14 {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #884F20;
-    }
+svg.svg-inline--fa.fa-chevron-up.fa-w-14 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #884f20;
+}
 </style>

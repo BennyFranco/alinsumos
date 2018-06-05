@@ -23,8 +23,8 @@
 
 <script>
 export default {
-  name: "TortillaCorn"
-};
+  name: 'TortillaCorn'
+}
 </script>
 
 <style scoped>

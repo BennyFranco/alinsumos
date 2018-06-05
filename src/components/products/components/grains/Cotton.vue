@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name : 'Cotton'
+  name: 'Cotton'
 }
 </script>
 

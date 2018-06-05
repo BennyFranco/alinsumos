@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-3 imageContent">
-      <img class="img-responsive rounded" alt="Maíz Forrajero" src="/images/products/grains/maiz-forrajero.jpg" />
+      <img class="img-responsive rounded" alt="Maíz Forrajero" :src="base_url+'static/images/products/grains/maiz-forrajero.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
       <p class="rounded textContent">
@@ -21,8 +21,13 @@
 
 <script>
 export default {
-  name: "FodderCorn"
-};
+  name: 'FodderCorn',
+  data () {
+    return {
+      base_url: process.env.BASE_URL
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -43,26 +48,41 @@ img {
 hr {
   margin-bottom: 2%;
 }
-.appear{
-   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 0.25s;
+.appear {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 0.25s;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-    0%   {filter:blur(50px);}
-    25%  {filter:blur(25px);}
-    50%  {filter:blur(12.5px);}
-    100% {filter:blur(0px);}
-
+  0% {
+    filter: blur(50px);
+  }
+  25% {
+    filter: blur(25px);
+  }
+  50% {
+    filter: blur(12.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {filter:blur(50px);}
-    25%  {filter:blur(25px);}
-    50%  {filter:blur(12.5px);}
-    100% {filter:blur(0px);}
+  0% {
+    filter: blur(50px);
+  }
+  25% {
+    filter: blur(25px);
+  }
+  50% {
+    filter: blur(12.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
 }
 </style>

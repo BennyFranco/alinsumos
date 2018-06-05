@@ -4,7 +4,7 @@
         <div class="jumbotron text-center">
             <div class="title-elements">
             <div class="title-text">
-                <img src="images/logo_white.svg" alt="Alinsumos"/>
+                <img src="static/images/logo_white.svg" alt="Alinsumos"/>
             </div>
                 <div id="slogan-text" class="title-text">
                     <vue-typed-js :strings="['¡Apoyando productores ^1000 <br/> cosechando éxitos!']" :showCursor="false">
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name: 'Header'
+  name: 'Header'
 }
 </script>
 

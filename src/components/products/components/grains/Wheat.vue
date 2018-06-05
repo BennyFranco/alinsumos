@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name : 'Wheat'
+  name: 'Wheat'
 }
 </script>
 

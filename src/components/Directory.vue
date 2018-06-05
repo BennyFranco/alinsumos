@@ -37,13 +37,12 @@
 import DirectoryJson from '../assets/data/directory.json'
 
 export default {
-    name : 'Directory',
-    data()
-    {
-      return{
-          Directory: DirectoryJson.directory
-      }
+  name: 'Directory',
+  data () {
+    return {
+      Directory: DirectoryJson.directory
     }
+  }
 }
 </script>
 

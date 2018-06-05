@@ -31,7 +31,7 @@
       <div class="col-xs-6 col-md-4 hidden-xs">
         <div class="embed-responsive embed-responsive-4by3">
           <video class="embed-responsive-item" controls>
-            <source src="video/director-message.mp4" type="video/mp4"> Your browser does not support the video tag.
+            <source src="static/video/director-message.mp4" type="video/mp4"> Your browser does not support the video tag.
           </video>
         </div>
       </div>

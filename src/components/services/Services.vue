@@ -25,7 +25,7 @@
 
 <script>
 export default {
-    name: "Services"
+  name: 'Services'
 }
 </script>
 
@@ -34,7 +34,8 @@ export default {
   min-height: 70vh;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: #77a23d;
   color: #fff;
 }

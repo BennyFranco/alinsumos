@@ -51,7 +51,7 @@ h4 {
 
 .parallax {
   /* The image used */
-  background-image: url('~/images/corn-header.jpg');
+  background-image: url('assets/corn-header.jpg');
   /* Full height */
   height: 100vh;
   /* Create the parallax scrolling effect */

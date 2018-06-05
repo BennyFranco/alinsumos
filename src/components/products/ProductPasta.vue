@@ -25,17 +25,17 @@
 
 <script>
 export default {
-    name : 'ProductPasta'
+  name: 'ProductPasta'
 }
 </script>
 
 <style scoped>
-
 #productos-granos {
   min-height: 70vh;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: #77a23d;
   color: #fff;
 }

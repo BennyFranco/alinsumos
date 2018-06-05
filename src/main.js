@@ -4,7 +4,7 @@ import App from './App.vue'
 
 import BootstrapVue from 'bootstrap-vue'
 import VueTypedJs from 'vue-typed-js'
-import VueScrollTo from 'vue-scrollto';
+import VueScrollTo from 'vue-scrollto'
 
 import MainContent from '@/components/main_content/MainContent.vue'
 import Directory from '@/components/Directory.vue'
@@ -72,70 +72,68 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: MainContent },
-  { path: '/directorio', component: Directory},
+  { path: '/directorio', component: Directory },
   {
     path: '/productos/granos',
     component: ProductGrain,
     children: [
-      { path: 'maiz-forrajero', components: { grains: FodderCorn}, alias: '/productos/granos' },
-      { path: 'maiz-tortillero', components: { grains: TortillaCorn} },
-      { path: 'trigo', components: { grains: Wheat} },
-      { path: 'sorgo', components: { grains: Sorghum} },
-      { path: 'semilla-algodon', components: { grains: Cotton} },
-      { path: 'cartamo', components: { grains: Safflower} }
+      { path: 'maiz-forrajero', components: { grains: FodderCorn }, alias: '/productos/granos' },
+      { path: 'maiz-tortillero', components: { grains: TortillaCorn } },
+      { path: 'trigo', components: { grains: Wheat } },
+      { path: 'sorgo', components: { grains: Sorghum } },
+      { path: 'semilla-algodon', components: { grains: Cotton } },
+      { path: 'cartamo', components: { grains: Safflower } }
     ]
   },
   {
     path: '/productos/pastas',
     component: ProductPasta,
     children: [
-      { path: 'soya', components: { pastas: Soy}, alias: '/productos/pastas' },
-      { path: 'canola', components: { pastas: Canola} },
-      { path: 'ddgs', components: { pastas: DDGS} },
-      { path: 'cartamo', components: { pastas: SafflowerPasta} },
-      { path: 'nuez', components: { pastas: Nut} },
-      { path: 'arroz', components: { pastas: Rice} },
-      { path: 'salvado-trigo', components: { pastas: WheatBran} }
+      { path: 'soya', components: { pastas: Soy }, alias: '/productos/pastas' },
+      { path: 'canola', components: { pastas: Canola } },
+      { path: 'ddgs', components: { pastas: DDGS } },
+      { path: 'cartamo', components: { pastas: SafflowerPasta } },
+      { path: 'nuez', components: { pastas: Nut } },
+      { path: 'arroz', components: { pastas: Rice } },
+      { path: 'salvado-trigo', components: { pastas: WheatBran } }
     ]
   },
   {
     path: '/productos/harinas',
     component: ProductFlour,
     children: [
-      { path: 'carne-hueso', components: { flours: MeatBone}, alias: '/productos/harinas' },
-      { path: 'sangre', components: { flours: Blood} },
-      { path: 'pescado', components: { flours: Fish} },
-      { path: 'trigo', components: { flours: WheatFlour} }
+      { path: 'carne-hueso', components: { flours: MeatBone }, alias: '/productos/harinas' },
+      { path: 'sangre', components: { flours: Blood } },
+      { path: 'pescado', components: { flours: Fish } },
+      { path: 'trigo', components: { flours: WheatFlour } }
     ]
   },
   {
     path: '/productos/grasas',
     component: ProductOil,
     children: [
-      { path: 'animal', components: { oils: Animal}, alias: '/productos/grasas' },
-      { path: 'vegetal', components: { oils: Vegetal} }
+      { path: 'animal', components: { oils: Animal }, alias: '/productos/grasas' },
+      { path: 'vegetal', components: { oils: Vegetal } }
     ]
   },
   {
     path: '/servicios',
     component: Services,
     children: [
-      { path: 'parafinanciera', components: { services: ForFinancial}, alias: '/servicios' },
-      { path: 'despepitadora-de-algodon', components: { services: CottonGins} },
-      { path: 'pignoracion-de-granos', components: { services: PledgeGrains} },
-      { path: 'secado-de-grano', components: { services: DryingGrains} },
-      {path: 'transporte-de-mercancia', components: {services: Trucking}},
-      {path: 'importacion-de-granos', components: {services: ImportGrains}},
-      {path: 'almacenaje-y-conservacion', components: {services: StorageConservation}}
+      { path: 'parafinanciera', components: { services: ForFinancial }, alias: '/servicios' },
+      { path: 'despepitadora-de-algodon', components: { services: CottonGins } },
+      { path: 'pignoracion-de-granos', components: { services: PledgeGrains } },
+      { path: 'secado-de-grano', components: { services: DryingGrains } },
+      { path: 'transporte-de-mercancia', components: { services: Trucking } },
+      { path: 'importacion-de-granos', components: { services: ImportGrains } },
+      { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } }
     ]
   }
 ]
 
-const base_url = Vue.config.productionTip ? '' : '/alinsumos/'
-
 const router = new VueRouter({
   mode: 'history',
-  base: base_url,
+  base: process.env.BASE_URL,
   routes,
   scrollBehavior () {
     return { x: 0, y: 0 }

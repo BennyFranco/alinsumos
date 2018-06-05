@@ -19,8 +19,8 @@
 
 <script>
 export default {
-  name: "Nut"
-};
+  name: 'Nut'
+}
 </script>
 
 <style scoped>

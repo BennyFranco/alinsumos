@@ -1,42 +1,24 @@
 # Alinsumos
 
-A website for Alinsumos
+> Alinsumos website
 
-## Getting Started
+## Build Setup
 
-This is a project created using VueJS
-
-### Prerequisites
-
-Before start, install this requisites:
-
-- node
-- npm
-- vue-cli
-
-### Installing
-
-First install node modules:
-
-```
+``` bash
+# install dependencies
 npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
 
-And thats it!
-
-### Runing
-
-Using the package commands:
-
-```
-npm run serve
-```
-
-or if you have installed vue-cli globally:
-
-````
-vue-cli-service serve
-````
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## Running the tests
 

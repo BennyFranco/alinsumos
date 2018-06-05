@@ -19,8 +19,8 @@
 
 <script>
 export default {
-  name: "SafflowerPasta"
-};
+  name: 'SafflowerPasta'
+}
 </script>
 
 <style scoped>

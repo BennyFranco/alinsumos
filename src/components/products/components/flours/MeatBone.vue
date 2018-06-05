@@ -22,7 +22,7 @@
 
 <script>
 export default {
-    name : 'MeatBone'
+  name: 'MeatBone'
 }
 </script>
 

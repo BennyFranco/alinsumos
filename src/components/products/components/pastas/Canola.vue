@@ -28,8 +28,8 @@
 
 <script>
 export default {
-  name: "Canola"
-};
+  name: 'Canola'
+}
 </script>
 
 <style scoped>

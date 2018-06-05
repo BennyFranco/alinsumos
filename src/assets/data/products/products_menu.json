@@ -3,22 +3,22 @@
   [
       {
           "title": "Granos",
-          "image": "images/products/trigo-manos.jpg",
+          "image": "static/images/products/trigo-manos.jpg",
           "link": "productos/granos"
       },
       {
           "title": "Pastas",
-          "image": "images/products/pasta.jpg",
+          "image": "static/images/products/pasta.jpg",
           "link": "productos/pastas"
       },
       {
           "title": "Harinas",
-          "image": "images/products/harina.jpg",
+          "image": "static/images/products/harina.jpg",
           "link": "productos/harinas"
       },
       {
           "title": "Grasas y aceites",
-          "image": "images/products/grasas-aceites.jpg",
+          "image": "static/images/products/grasas-aceites.jpg",
           "link": "productos/grasas"
       }
   ]

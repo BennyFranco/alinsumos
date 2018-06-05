@@ -20,22 +20,20 @@
 </template>
 
 <script>
-
-import ServicesJson from '../../../assets/data/services/services_menu.json';
-import Vue from 'vue';
+import ServicesJson from '../../../assets/data/services/services_menu.json'
+import Vue from 'vue'
 
 export default {
-    name: 'MainServices',
-    data()
-    {
-        return{
-            Services: ServicesJson.services
-        }
+  name: 'MainServices',
+  data () {
+    return {
+      Services: ServicesJson.services
     }
+  }
 }
 
 Vue.filter('truncate', function (text, stop, clamp) {
-    return text.slice(0, stop) + (stop < text.length ? clamp || '...' : '')
+  return text.slice(0, stop) + (stop < text.length ? clamp || '...' : '')
 })
 </script>
 
@@ -51,5 +49,4 @@ Vue.filter('truncate', function (text, stop, clamp) {
   height: 100%;
   margin-bottom: 10px;
 }
-
 </style>

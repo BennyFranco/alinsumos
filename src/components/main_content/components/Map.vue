@@ -8,11 +8,9 @@
 
 <script>
 export default {
-    name: 'Map'
+  name: 'Map'
 }
 </script>
 
 <style scoped>
-
 </style>
-

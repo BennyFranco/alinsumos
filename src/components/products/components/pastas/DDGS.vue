@@ -21,8 +21,8 @@
 
 <script>
 export default {
-  name: "DDGS"
-};
+  name: 'DDGS'
+}
 </script>
 
 <style scoped>
