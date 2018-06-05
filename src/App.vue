@@ -10,6 +10,8 @@
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import '@/assets/css/fa-svg-with-js.css'
+import '@/assets/js/fontawesome-all.min.js'
 import '@/assets/css/main.css'
 
 import Menu from './components/Menu.vue'
