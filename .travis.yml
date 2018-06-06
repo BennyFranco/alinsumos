@@ -13,3 +13,5 @@ deploy:
   skip-cleanup: true
   github-token: ce4ef0cc78171b15ddbf748b1db2dc146f671f80
   keep-history: true
+  on:
+    branch: vue-migration
