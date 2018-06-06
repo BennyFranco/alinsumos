@@ -7,4 +7,9 @@ before_script:
 
 script:
   - npm run build
-  - npm run push-dir
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: e0d6e22a68afbc50c2298ee223110d09554189d6
+  keep-history: true
