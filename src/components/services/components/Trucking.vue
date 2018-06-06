@@ -1,7 +1,7 @@
 <template>
 <div class="card custom appear">
     <figure>
-        <img class="card-img-top" :src="base_url+'static/images/services/equipos_transporte.jpg'" alt="Card image cap">
+        <img class="card-img-top" :src="base_url+'static/images/services/camion.jpg'" alt="Card image cap">
     </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Transporte de mercancía</h5>

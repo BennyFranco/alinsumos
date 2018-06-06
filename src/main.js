@@ -129,8 +129,8 @@ const routes = [
       { path: 'transporte-de-mercancia', components: { services: Trucking } },
       { path: 'importacion-de-granos', components: { services: ImportGrains } },
       { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } },
-      { path: 'servicios/servicio-espuela', components: { services: Spur } },
-      { path: 'servicios/servicio-cribado', components: { services: Sifting } }
+      { path: 'servicio-espuela', components: { services: Spur } },
+      { path: 'servicio-cribado', components: { services: Sifting } }
     ]
   }
 ]

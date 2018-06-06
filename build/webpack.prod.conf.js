@@ -157,8 +157,8 @@ const webpackConfig = merge(baseWebpackConfig, {
         '/servicios/transporte-de-mercancia',
         '/servicios/importacion-de-granos',
         '/servicios/almacenaje-y-conservacion',
-        'servicios/servicio-espuela',
-        'servicios/servicio-cribado'
+        '/servicios/servicio-espuela',
+        '/servicios/servicio-cribado'
       ]
     })
   ]
