@@ -9,10 +9,15 @@ script:
   - npm run build
 
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  local_dir: dist/
-  keep-history: true
-  on:
-    branch: vue-migration
+  if: branch = vue-migration
+    provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    local_dir: dist/
+    keep-history: true
+    on:
+      branch: vue-migration
+
+deploy:
+  if: branch = master
+    - sh ./deploy.sh
