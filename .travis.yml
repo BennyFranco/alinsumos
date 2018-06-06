@@ -17,7 +17,5 @@ deploy:
     keep-history: true
     on:
       branch: vue-migration
-
-deploy:
   if: branch = master
     - sh ./deploy.sh
