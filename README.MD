@@ -2,6 +2,12 @@
 
 > Alinsumos website
 
+
+[![Build Status](https://travis-ci.com/BennyFranco/alinsumos.svg?branch=master)](https://travis-ci.com/BennyFranco/alinsumos)
+[![Build Status](https://travis-ci.com/BennyFranco/alinsumos.svg?branch=vue-migration)](https://travis-ci.com/BennyFranco/alinsumos)
+
+
+
 ## Build Setup
 
 ``` bash
