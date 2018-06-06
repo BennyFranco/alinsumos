@@ -8,16 +8,17 @@ before_script:
 script:
   - npm run build
 
-- stage: deploy
-   if: branch = vue-migration
-      provider: pages
-      skip-cleanup: true
-      github-token: $GITHUB_TOKEN
-      local_dir: dist/
-      keep-history: true
-      on:
-        branch: vue-migration
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: dist/
+  keep-history: true
+  on:
+    branch: vue-migration
 
-- stage: deploy
-  if: branch = vue-migration
-    - sh ./deploy.sh
+deploy:
+  provider: script
+  script: sh ./deploy.sh
+  on:
+    branch: master
