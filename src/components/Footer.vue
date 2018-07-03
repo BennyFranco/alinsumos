@@ -74,6 +74,9 @@ export default {
 </script>
 
 <style scoped>
+.container{
+    padding-top: 2%;
+}
 li {
   list-style: none;
 }
@@ -121,38 +124,38 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0% {
-    background-color:#FFFFFF; bottom:0px; top:20px;
+    background: linear-gradient(#FFFFFF, #FFFFFF); bottom:0px; top:20px;
   }
   25% {
-    background-color:#FFEBD4; bottom:0px; top:0px;
+    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
   }
   50% {
-    background-color:#FFDEB8; bottom:0px; top:0px;
+    background: linear-gradient(#FFDEB8, #FFFFFF);  bottom:0px; top:0px;
   }
   75% {
-    background-color:#FFEBD4; bottom:0px; top:0px;
+    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
   }
   100% {
-  background-color:#FFFFFF; bottom:20px; top:0px;
+  background: linear-gradient(#FFFFFF, #FFFFFF); bottom:20px; top:0px;
   }
 }
 
 /* Standard syntax */
 @keyframes example {
   0% {
-    background-color:#FFFFFF; bottom:0px; top:20px;
+    background: linear-gradient(#FFFFFF, #FFFFFF); bottom:0px; top:20px;
   }
   25% {
-    background-color:#FFEBD4; bottom:0px; top:0px;
+    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
   }
   50% {
-    background-color:#FFDEB8; bottom:0px; top:0px;
+    background: linear-gradient(#FFDEB8, #FFFFFF);  bottom:0px; top:0px;
   }
   75% {
-    background-color:#FFEBD4; bottom:0px; top:0px;
+    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
   }
   100% {
-  background-color:#FFFFFF; bottom:20px; top:0px;
+  background: linear-gradient(#FFFFFF, #FFFFFF); bottom:20px; top:0px;
   }
 }
 </style>
