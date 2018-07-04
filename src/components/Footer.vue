@@ -1,20 +1,26 @@
 <template>
 <div>
 <footer class="container align-class-center  text-center">
-    <div class="row align-vertical-class  align-items-center">
-        <div class="col-12">
+    <div class="row align-items-center">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
             <address class="text-center">
                 <strong>Alinsumos, S.A. de C.V.</strong><br> Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial. Cd. Obregón, Sonora, México.<br/>
             </address>
         </div>
+        <div class="col-2">
+        </div>
     </div>
 
-    <div class="row align-vertical-class  align-items-center">
-        <div class="col-8 ">
+    <div class="row align-items-center">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
             <i class="fa fa-phone mr-3"></i><a href="tel:+52 (644) 413 99 29"> +52 (644) 413 99 29 </a> | <a href="tel:+52 (644) 445 01 17"> +52 (644) 445 01 17</a> | <a href="tel:+52 (644) 445 02 51"> +52 (644) 445 02 51</a> | <a href="tel:+52 (644) 445 01 16"> +52 (644) 445 01 16</a>
         </div>
-        <div class="col-3 ">
-            <a href="https://www.facebook.com/alinsumos/"><i class="fab fa-facebook-square"></i>Facebook</a>
+        <div class="col-2 aling-items-right">
+            <a href="https://www.facebook.com/alinsumos/"><i class="fab fa-facebook-square"></i></a>
         </div>
     </div>
      <hr>
@@ -124,38 +130,38 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0% {
-    background: linear-gradient(#FFFFFF, #FFFFFF); bottom:0px; top:20px;
+    bottom:0px; top:20px;
   }
   25% {
-    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
+    bottom:0px; top:0px;
   }
   50% {
-    background: linear-gradient(#FFDEB8, #FFFFFF);  bottom:0px; top:0px;
+    bottom:0px; top:0px;
   }
   75% {
-    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
+    bottom:0px; top:0px;
   }
   100% {
-  background: linear-gradient(#FFFFFF, #FFFFFF); bottom:20px; top:0px;
+    bottom:20px; top:0px;
   }
 }
 
 /* Standard syntax */
 @keyframes example {
   0% {
-    background: linear-gradient(#FFFFFF, #FFFFFF); bottom:0px; top:20px;
+    bottom:0px; top:20px;
   }
   25% {
-    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
+    bottom:0px; top:0px;
   }
   50% {
-    background: linear-gradient(#FFDEB8, #FFFFFF);  bottom:0px; top:0px;
+    bottom:0px; top:0px;
   }
   75% {
-    background: linear-gradient(#FFEBD4, #FFFFFF); bottom:0px; top:0px;
+    bottom:0px; top:0px;
   }
   100% {
-  background: linear-gradient(#FFFFFF, #FFFFFF); bottom:20px; top:0px;
+    bottom:20px; top:0px;
   }
 }
 </style>
