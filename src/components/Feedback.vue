@@ -8,7 +8,7 @@
        <h4>Te invitamos a conocer nuestros productos y servicios.</h4>
        <div class="row">
         <div class="col-content col-6">
-         <img :src="base_url+'static/images/tolva_llenado.jpg'" alt="Avatar" class="productos">
+         <img :src="base_url+'static/images/productos-f.jpg'" alt="Avatar" class="productos">
          <div class="overlay">
             <p><a class="text" href="/#products">Productos</a></p>
          </div>
