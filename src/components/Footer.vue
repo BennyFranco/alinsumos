@@ -21,10 +21,12 @@
             </div>
             <div class="row  align-class-center align-items-center">
                 <div class="col-6 "></div>
-                <div class="col-12 animation">
-                    <a href="#" title="Inicio" v-scroll-to="'#top'">
-                        <i class="fas fa-chevron-up"></i>
-                    </a>
+                <div class="col-12">
+                    <div class="animation">
+                      <a href="#" title="Inicio" v-scroll-to="'#up'">
+                        <i class="fas fa-chevron-up icon-style"></i>
+                      </a>
+                    </div>
                 </div>
                 <div class="col-6"></div>
             </div>
@@ -84,51 +86,29 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
     padding-right: 20%;
     padding-left: 20%;
 }
-.animation {
-
-    -webkit-animation-name: mover;/* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 6s;
-    -webkit-animation-iteration-count: infinite;
-
-    animation-name: mover;/* Chrome, Safari, Opera */
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
+/* ----------animation----------- */
+.animation{
+  animation: shake 5s ease-out infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mover {
-  0% {
-    bottom:0px; top:20px;
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(0, -1px, 0);
   }
-  25% {
-    bottom:0px; top:0px;
+
+  20%, 80% {
+    transform: translate3d(0, 2px, 0);
   }
-  50% {
-    bottom:0px; top:0px;
+
+  30%, 50%, 70% {
+    transform: translate3d(0, -4px, 0);
   }
-  75% {
-    bottom:0px; top:0px;
-  }
-  100% {
-    bottom:20px; top:0px;
+
+  40%, 60% {
+    transform: translate3d(0, 4px, 0);
   }
 }
-
-/* Standard syntax */
-@keyframes mover {
-  0% {
-    bottom:0px; top:20px;
-  }
-  25% {
-    bottom:0px; top:0px;
-  }
-  50% {
-    bottom:0px; top:0px;
-  }
-  75% {
-    bottom:0px; top:0px;
-  }
-  100% {
-    bottom:20px; top:0px;
-  }
-}
+/* ----------end animation----------- */
 </style>
