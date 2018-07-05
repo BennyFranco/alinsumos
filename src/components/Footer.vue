@@ -23,7 +23,7 @@
                 <div class="col-6 "></div>
                 <div class="col-12">
                     <div class="animation">
-                      <a href="#" title="Inicio" v-scroll-to="'#up'">
+                      <a href="#" title="Inicio" v-scroll-to="'#top'">
                         <i class="fas fa-chevron-up icon-style"></i>
                       </a>
                     </div>
