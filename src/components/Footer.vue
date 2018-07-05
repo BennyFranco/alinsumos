@@ -19,7 +19,6 @@
                     <a href="https://www.facebook.com/alinsumos/"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
-            <!--<hr class="ajust-size">-->
             <div class="row  align-class-center align-items-center">
                 <div class="col-6 "></div>
                 <div class="col-12 animation">
