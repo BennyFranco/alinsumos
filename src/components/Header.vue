@@ -40,4 +40,27 @@ export default {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    color: #fff;
+    padding: 0px 0px;
+    padding-top: 20%;
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+    background: none;
+    }
+  .title-text {
+    margin: 1% auto;
+    text-shadow: 2px 3px 4px #000;
+    font-size: 2.5em;
+    }
+  .title-elements {
+    display: flex;
+    flex-direction: column;
+    }
+  img{
+    height: 95%;
+  }
+}
+
 </style>

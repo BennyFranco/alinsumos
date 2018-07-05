@@ -47,9 +47,19 @@ export default {
 <style scoped>
 .background {
   padding-top: 2%;
-  background-image: url('../assets/footer.jpg');
+  background-image: url('../assets/footer.png');
+  background-size: auto 100%;
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: 30% 100%;
+}
+@media screen and (max-width: 600px) {
+  .background {
+    padding-top: 2%;
+    background-image: url('../assets/footer.png');
+    background-size: 30% 30%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    }
 }
 li {
   list-style: none;
@@ -77,16 +87,16 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
 }
 .animation {
 
-    -webkit-animation-name: example;/* Safari 4.0 - 8.0 */
+    -webkit-animation-name: mover;/* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
 
-    animation-name: example;/* Chrome, Safari, Opera */
+    animation-name: mover;/* Chrome, Safari, Opera */
     animation-duration: 9s;
     animation-iteration-count: infinite;
 }
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
+@-webkit-keyframes mover {
   0% {
     bottom:0px; top:20px;
   }
@@ -105,7 +115,7 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes mover {
   0% {
     bottom:0px; top:20px;
   }

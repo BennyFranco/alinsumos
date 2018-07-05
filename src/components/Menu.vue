@@ -1,8 +1,8 @@
 <template>
-  <b-navbar toggleable="md" type="" variant="" fixed="top">
+  <b-navbar toggleable="md" type="dark" variant="" fixed="top">
     <b-navbar-brand :href="base_url"><img :src="base_url+'static/images/imagotipo_web.svg'" alt="Alinsumos"/></b-navbar-brand>
 
-    <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+    <b-navbar-toggle @click.native="change" target="nav_collapse"></b-navbar-toggle>
 
     <b-collapse is-nav id="nav_collapse">
       <!-- Right aligned nav items -->
@@ -29,7 +29,8 @@ export default {
   data () {
     return {
       scrollPosition: 0,
-      base_url: process.env.BASE_URL
+      base_url: process.env.BASE_URL,
+      isToggleClicked: false
     }
   },
   methods: {
@@ -43,7 +44,7 @@ export default {
             document.getElementsByTagName('nav')[0].classList.remove('v-end')
           }
           document.getElementsByTagName('nav')[0].classList.add('v-start')
-        } else {
+        } else if (!this.isToggleClicked) {
           if (
             document
               .getElementsByTagName('nav')[0]
@@ -63,12 +64,29 @@ export default {
           document.getElementsByTagName('nav')[0].classList.remove('v-end')
         }
         document.getElementsByTagName('nav')[0].classList.add('v-start')
+      } else {
+        document.getElementsByTagName('nav')[0].classList.add('v-end')
+      }
+    },
+    change () {
+      if (window.scrollY <= 500 && this.$route.path == '/') {
+        this.isToggleClicked = !this.isToggleClicked
+        if (
+          document.getElementsByTagName('nav')[0].classList.contains('v-end')
+        ) {
+          document.getElementsByTagName('nav')[0].classList.remove('v-end')
+          document.getElementsByTagName('nav')[0].classList.add('v-start')
+        } else {
+          document.getElementsByTagName('nav')[0].classList.add('v-end')
+          document.getElementsByTagName('nav')[0].classList.remove('v-start')
+        }
       }
     }
   },
   mounted () {
     window.addEventListener('scroll', this.updateScroll)
     window.addEventListener('load', this.menuMustbeTransparent)
+    // window.addEventListener('nav_collapse', this.change)
   }
 }
 </script>
@@ -110,10 +128,10 @@ export default {
 .navbar li :active {
   background-color: rgba(255, 255, 255, 0.4) !important;
 }
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
   border-color: transparent;
   color: #fff !important;
-}
+}*/
 
 .v-start {
   animation: fadein 1s;
@@ -142,4 +160,5 @@ export default {
     background-color: transparent;
   }
 }
+
 </style>

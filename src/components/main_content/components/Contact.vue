@@ -14,7 +14,7 @@
       <b-button size="sm" variant="outline-success" href="directorio">Ver directorio</b-button>
     </div>
     <div class="col-sm-4">
-      <form action="https://formspree.io/your_email@something.com" method="POST">
+      <form action="https://formspree.io/recursoshumanos@alinsumos.com" method="POST">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="Nombre" placeholder="Nombre" type="text" required>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <textarea class="form-control" id="comments" name="Comentarios" placeholder="Comentario" rows="5"></textarea><br>
-      <!-- <input type="hidden" name="_next" value="http://site.io/thanks.html" /> -->
+      <input type="hidden" name="_next" value="https://bennyfranco.github.io/alinsumos/gracias" />
       <input type="text" name="_gotcha" style="display:none" />
       <input type="hidden" name="_subject" value="[Alinsumos.com] Nuevo mensaje desde el sitio web" />
       <div class="row">
