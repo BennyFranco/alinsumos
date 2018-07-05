@@ -19,7 +19,7 @@
                     <a href="https://www.facebook.com/alinsumos/"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
-            <hr class="ajust-size">
+            <!--<hr class="ajust-size">-->
             <div class="row  align-class-center align-items-center">
                 <div class="col-6 "></div>
                 <div class="col-12 animation">
@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style scoped>
-.background{
+.background {
   padding-top: 2%;
   background-image: url('../assets/footer.jpg');
   background-repeat: no-repeat;
@@ -57,11 +57,8 @@ li {
 * {
   font-size: small;
 }
-address{
+address {
     margin-bottom: 0px;
-}
-hr{
-    margin: 5px;
 }
 svg.svg-inline--fa.fa-chevron-up.fa-w-14 {
   font-size: 20px;
@@ -74,10 +71,11 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
     font-size: 35px;
     vertical-align: middle;
 }
-.ajust-size{
-
+.ajust-size {
+    padding-right: 20%;
+    padding-left: 20%;
 }
-.animation{
+.animation {
 
     -webkit-animation-name: example;/* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 6s;

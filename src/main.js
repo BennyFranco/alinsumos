@@ -52,6 +52,8 @@ import Vegetal from '@/components/products/components/oils/Vegetal.vue'
 
 //  -------------------- End Oils --------------------  //
 
+//  ---------------------- Services ----------------------  //
+
 import Services from '@/components/services/Services.vue'
 import ForFinancial from '@/components/services/components/ForFinancial.vue'
 import CottonGins from '@/components/services/components/CottonGins.vue'
@@ -62,6 +64,14 @@ import ImportGrains from '@/components/services/components/ImportGrains.vue'
 import StorageConservation from '@/components/services/components/StorageConservation.vue'
 import Spur from '@/components/services/components/Spur.vue'
 import Sifting from '@/components/services/components/Sifting.vue'
+
+//  -------------------- End Services --------------------  //
+
+//  -------------------- End Oils --------------------  //
+
+import Feedback from '@/components/Feedback.vue'
+
+//  -------------------- End Oils --------------------  //
 
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
@@ -74,6 +84,7 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: MainContent },
+  { path: '/gracias', component: Feedback },
   { path: '/directorio', component: Directory },
   {
     path: '/productos/granos',
