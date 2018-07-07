@@ -4,13 +4,13 @@
     <div class="col-sm-4">
       <img src="static/images/tolva_llenado.jpg" class="img-fluid rounded" />
     </div>
-    <div class="col-sm-8">
-      <h2>Nuestros Valores</h2><br>
-      <h4><strong>MISIÓN:</strong> Ser la mejor opción de los productores agropecuarios en financiamiento, comercialización y
-        darles valor agregado a sus productos. Obtener un crecimiento profesional y humano de todos los integrantes de Alinsumos.</h4><br>
-      <p><strong>VISIÓN:</strong> Ser una empresa lider en el noroeste y occidente de México en la actividad Agroindustial.
+    <div class="col-sm-8 aling-content-custom">
+      <h2>Nuestros Valores</h2>
+      <h4><strong>MISIÓN</strong></h4> <p>Ser la mejor opción de los productores agropecuarios en financiamiento, comercialización y
+        darles valor agregado a sus productos. Obtener un crecimiento profesional y humano de todos los integrantes de Alinsumos.</p>
+      <h4><strong>VISIÓN</strong></h4> <p> Ser una empresa lider en el noroeste y occidente de México en la actividad Agroindustial.
       </p>
-      <p><strong>OBJETIVOS:</strong></p>
+      <h4><strong>OBJETIVOS</strong></h4>
       <div>
         <ul>
           <li>Apoyar al sector agropecuario con alternativas financieras más apropiadas.</li>
@@ -18,7 +18,7 @@
           <li> Contar con una mejora continua en los procesos de la empresa.</li>
         </ul>
       </div>
-      <h4><strong>VALORES:</strong></h4>
+      <h4><strong>VALORES</strong></h4>
       <div>
         <ul>
           <li><strong>Compromiso:</strong> Obligación contraída por medio de acuerdo, promesa o contrato."</li>
@@ -51,6 +51,16 @@ export default {
 .charmain-video {
   width: 320px;
   height: 250px;
+}
+h4 {
+  margin-bottom: 0px;
+}
+img {
+  margin-left: 15%;
+}
+.aling-content-custom {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 </style>

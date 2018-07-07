@@ -8,7 +8,7 @@
           <strong>Alinsumos, S.A. de C.V.</strong><br>
           Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.
           Cd. Obregón, Sonora, México.<br/>
-          <abbr title="Teléfono">T:</abbr> +52 (644) 413 99 29
+          <i class="fa fa-phone mr-3"></i> <a href="tel:+52 (644) 413 99 29"> +52 (644) 413 99 29</a>
         </address>
       <p>O consulta nuestro directorio:</p>
       <b-button size="sm" variant="outline-success" href="directorio">Ver directorio</b-button>
