@@ -62,5 +62,13 @@ img {
   padding-left: 10%;
   padding-right: 10%;
 }
-
+@media screen and (max-width: 768px) {
+  img {
+    margin-left: 0px;
+  }
+  .aling-content-custom {
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+}
 </style>
