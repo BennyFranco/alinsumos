@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="De origen animal" :src="base_url+'static/images/products/oils/animal.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Se obtiene de los procesos de plantas de rendimiento encargadas de reciclar los tejidos de origen animal así como todos sus subproductos, estos se trituran, se cocen a altas temperaturas y pasan por un proceso de prensado y filtrado, proceso del cual se obtiene el aceite refinado.
         </p>
     </div>

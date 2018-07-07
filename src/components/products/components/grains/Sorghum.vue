@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         El sorgo forrajero es un cultivo que se adapta bien a zonas en
           las cuales el maíz se ve limitado en su producción y calidad,
           debido a problemas climáticos (déficit de lluvias) y de suelos (baja fertilidad).

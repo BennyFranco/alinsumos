@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Salvado de Trigo" :src="base_url+'static/images/products/pastas/salvado.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Subproducto de la molienda de trigo para la harina. Muy apetecible, bajo en calcio, tiende a ser más alto en fósforo
           que otros subproductos. Tiene 96% de la energía de la cebada y 91% del nivel de energía del maíz.
         </p>

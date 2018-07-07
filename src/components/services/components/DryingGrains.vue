@@ -5,7 +5,7 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Secado de granos</h5>
-    <p class="card-text">Los granos, como es bien conocido, no pueden conservarse almacenados si no están secos. La cuestión es determinar cuándo un grano se considera "seco". Como término general, para los granos como Maíz y Sorgo, una humedad del 14% se considera el límite para estimarlo como "seco". En el caso del Trigo Cristalino y Harinero 12 % se considera su límite. Para cuamplir con las condiciones antes mencionadas en
+    <p class="card-text" ALIGN="justify">Los granos, como es bien conocido, no pueden conservarse almacenados si no están secos. La cuestión es determinar cuándo un grano se considera "seco". Como término general, para los granos como Maíz y Sorgo, una humedad del 14% se considera el límite para estimarlo como "seco". En el caso del Trigo Cristalino y Harinero 12 % se considera su límite. Para cuamplir con las condiciones antes mencionadas en
       <strong>
         ALINSUMOS SA DE CV
         </strong> contamos con secadora de flujo continuo <strong>

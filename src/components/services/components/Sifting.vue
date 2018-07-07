@@ -5,7 +5,7 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Servicio de cribado</h5>
-    <p class="card-text">
+    <p class="card-text" ALIGN="justify">
       Se cuenta con servicios de cribado y almacenaje de diferentes granos para consumo humano y semillas con capacidad de 60 toneladas por hora.
 
     </p>

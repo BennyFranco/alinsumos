@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="DDGs (Grano seco destilado de maíz)" :src="base_url+'static/images/products/pastas/DDGs.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Sub-producto del grano (de maíz), El ddg es una materia prima ampliamente utilizada por su valor energético,
           obtenido mediante el secado de los residuos del proceso de obtención de etanol como biocombustible, contiene levaduras,
           nutrientes solubles y las partículas del grano más finas, es un producto que presenta ventajas para alimento de ganado

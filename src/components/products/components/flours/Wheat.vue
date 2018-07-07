@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         El principal producto obtenido del trigo es la harina, la harina que se obtiene de trigos blandos se
          utiliza a la producción de pan, mientras que la que se obtiene de trigos duros se utiliza para la
          producción de pastelería.

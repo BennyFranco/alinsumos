@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Harina de pescado" :src="base_url+'static/images/products/flours/pescado.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Es la mejor fuente de energía concentrada para la alimentación de animales. Con un 70% a 80% del producto en
           forma de proteína y grasa digerible, su contenido de energía es notablemente mayor que muchas otras proteínas
           animales o vegetales ya que proporciona una fuente concentrada de proteína de alta calidad y una grasa rica en

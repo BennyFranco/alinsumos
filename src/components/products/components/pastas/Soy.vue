@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Soya" :src="base_url+'static/images/products/pastas/soya.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Subproducto del proceso del fríjol de soya para el aceite y harina.
         </p>
     </div>

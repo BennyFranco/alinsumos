@@ -4,11 +4,11 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Esta es un subproducto de la industria de carnes, obtenida por la desecación de la sangre,
           esta harina se caracteriza por el alto contenido de proteína, la cual es de baja degradación ruminal.
         </p>
-        <p class="rounded textContent">
+        <p class="rounded textContent" ALIGN="justify">
         La harina de sangre es un alimento proteico valioso, cuando se obtiene con bajas temperaturas contiene
           alto tenor de proteína no degradable en el rumen y buena degradación intestinal. De acuerdo con sus
           características nutricionales tiene mayor utilización en monogástricos y en rumiantes su mayor importancia

@@ -9,7 +9,7 @@
         <img class="rounded" :src="service.image" alt="">
         <div class="caption">
           <h3>{{service.title}}</h3>
-          <p class="d-none d-sm-block">{{service.description | truncate(200)}} <p>
+          <p class="d-none d-sm-block" ALIGN="justify">{{service.description | truncate(200)}} <p>
               <b-button size="sm" variant="outline-success" :to="service.link">Ver más</b-button>
           </p>
         </div>
@@ -48,5 +48,9 @@ Vue.filter('truncate', function (text, stop, clamp) {
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
+}
+.caption {
+  padding-left: 4%;
+  padding-right: 4%;
 }
 </style>

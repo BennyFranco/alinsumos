@@ -5,7 +5,7 @@
     </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Transporte de mercancía</h5>
-    <p class="card-text">En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.</p>
+    <p class="card-text" ALIGN="justify">En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.</p>
   </div>
 </div>
 </template>

@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Harina de carne y hueso" :src="base_url+'static/images/products/flours/carne.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Es un producto constituido de restos de frigoríficos y canales descartadas por los rastros.
           Esta harina ofrece un alto valor proteico siendo utilizada en raciones para aves, cerdos y bovinos.
           Por tratarse de un producto con altos tenores de proteína y baja degradabilidad ruminal, además de

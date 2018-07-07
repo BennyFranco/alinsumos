@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Subproducto del arroz: La capa integral del arroz (cutícula), con cantidades mínimas de fragmentos de la cáscara,
           quebrados y puntilla de arroz muy finos además de Carbonato de Calcio que es inevitable al momento de la molienda
           del cereal.

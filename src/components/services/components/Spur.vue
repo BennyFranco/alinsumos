@@ -5,7 +5,7 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Servicio de espuela</h5>
-    <p class="card-text">
+    <p class="card-text" ALIGN="justify">
       Se cuenta con una espuela de ferrocarril  con capacidad de 25 tolvas para comercialización y prestación de servicios de granos y pastas.
     </p>
   </div>

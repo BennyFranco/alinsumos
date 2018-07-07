@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Es el producto obtenido de la molienda de la semilla de cártamo después de extraer la mayor parte del aceite,
           es un producto sin olor y ligeramente tostado empleado como ingrediente en alimento balanceado.
         </p>

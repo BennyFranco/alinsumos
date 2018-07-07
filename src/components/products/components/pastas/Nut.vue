@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Nuez" :src="base_url+'static/images/products/pastas/nuez.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         La Harina de nuez ha empezado a tener uso en la alimentación animal por su alto contenido graso,
           lo que aporta energía a la dieta proporcionando una cantidad elevada de calorías.
         </p>

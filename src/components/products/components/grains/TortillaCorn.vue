@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         El Maíz utilizado para alimentación humana es fundamental,
           capaz de saciar el hambre durante un tiempo prolongado sin
           tener que recurrir a otros alimentos menos saludables para el organismo,

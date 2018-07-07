@@ -9,14 +9,14 @@
     <div class="row">
       <div class="col-xs-12 col-md-8">
         <h2>Acerca de Alinsumos</h2><br>
-        <h4>
+        <h4 ALIGN="justify">
           ALINSUMOS, es una empresa joven, que nace hace muy pocos años en el Noroeste del país, con un entrañable cariño por nuestro
           México, comprometidos con su desarrollo en la economía primaria, directamente en la agroindustria, tenemos muy claro
           en nuestra VISION, que debemos crear crecimiento para beneficio de productores y consumidores, coadyuvando en su
           desarrollo y así sumarnos a la solución de la cadena alimenticia, especialmente Granos.
         </h4>
         <br/>
-        <p>Somos un equipo joven, emprendedor, preparado, profesional, actualizado y con visión de largo plazo. En cada contacto
+        <p ALIGN="justify">Somos un equipo joven, emprendedor, preparado, profesional, actualizado y con visión de largo plazo. En cada contacto
           de negocios con productores, encontrarán en nosotros a un equipo confiable para fincar relaciones de largo plazo,
           en el concepto de GANAR-GANAR. Estamos seguros que el compromiso, y la búsqueda de soluciones que apoyen al productor,
           la encontrarán siempre en nuestro equipo de trabajo. Las utilidades que se obtienen de este ejercicio emprendedor,

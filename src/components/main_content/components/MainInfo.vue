@@ -6,9 +6,9 @@
     </div>
     <div class="col-sm-8 aling-content-custom">
       <h2>Nuestros Valores</h2>
-      <h4><strong>MISIÓN</strong></h4> <p>Ser la mejor opción de los productores agropecuarios en financiamiento, comercialización y
+      <h4><strong>MISIÓN</strong></h4> <p ALIGN="justify">Ser la mejor opción de los productores agropecuarios en financiamiento, comercialización y
         darles valor agregado a sus productos. Obtener un crecimiento profesional y humano de todos los integrantes de Alinsumos.</p>
-      <h4><strong>VISIÓN</strong></h4> <p> Ser una empresa lider en el noroeste y occidente de México en la actividad Agroindustial.
+      <h4><strong>VISIÓN</strong></h4> <p ALIGN="justify"> Ser una empresa lider en el noroeste y occidente de México en la actividad Agroindustial.
       </p>
       <h4><strong>OBJETIVOS</strong></h4>
       <div>

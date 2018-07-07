@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Trigo" :src="base_url+'static/images/products/grains/trigo.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         El trigo es uno de los alimentos más completos tanto para la alimentación Humana como pecuaria, contiene una cantidad muy elevada de minerales como potasio, fosforo, hierro, zinc entre otros, existen dos grupos principales, los trigos cristalinos o duros y los trigos harineros o blandos usados en la industria harinera y de pastas.
        </p>
     </div>

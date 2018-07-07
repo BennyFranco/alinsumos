@@ -46,7 +46,7 @@
 		{
             "mainName": "Recursos Humanos",
 			"phone":"115",
-			"email":"ivalenzuela@alinsumos.com",
+			"email":"recursoshumanos@alinsumos.com",
 			"secondPhone":"",
 			"secondEmail":""
         },
@@ -77,6 +77,6 @@
 			"email":"recepcion@alinsumos.com",
 			"secondPhone":"",
 			"secondEmail":""
-        }
+		}
     ]
 }

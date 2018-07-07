@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Semilla de algodón" :src="base_url+'static/images/products/grains/algodon.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Semilla de Algodón es un recurso abundante y de bajo costo para la alimentación de bovinos y constituye una fuente alta en proteína, fibra, grasa y energía.
         </p>
     </div>
