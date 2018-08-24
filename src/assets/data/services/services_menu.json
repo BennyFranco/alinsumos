@@ -3,45 +3,15 @@
     [
         {
             "title": "ParaFinanciera",
-            "image": "static/images/services/pasillo.jpg",
-            "description": "La ParaFinanciera ALIFIN tiene como Principal Objetivo el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.",
+            "image": "static/images/services/alfin-main.jpg",
+            "description": "Alifin como Parafinanciera, tiene como objetivo principal el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.",
             "link": "servicios/ParaFinanciera"
         },
         {
-            "title": "Despepitadora de algodón",
-            "image": "static/images/services/cotton.jpg",
-            "description": "En Alinsumos estamos siempre al pendiente de las necesidades de nuestros productores, razón por la cual ponemos en marcha la planta despepitadora de algodón, ubicada en calle 600 y 3 del valle del yaqui cuenta con dos plantas una Murray 1080 y una Murray 690 con capacidad de 350 pacas diarias, con la cual se dará servicio a más de 4000 has.",
-            "link": "servicios/despepitadora-de-algodon"
-        },
-        {
-            "title": "Pignoración de granos",
-            "image": "static/images/services/trigo_granos.jpg",
-            "description": "Se refiere al término pignorar que significa 'dar o dejar en prenda'. Es cuando se deposita temporalmente la totalidad o una parte de la cosecha y se obtiene un documento expedido por un almacén general de depósito que certifica la existencia del grano, mediante el cual, el productor esta en posibilidad de obtener un crédito prendario con un agente financiero.",
-            "link": "servicios/pignoracion-de-granos"
-        },
-        {
-            "title": "Secado de granos",
-            "image": "static/images/services/secado_grano.jpg",
-            "description": "Los granos, como es bien conocido, no pueden conservarse almacenados si no están secos. La cuestión es determinar cuándo un grano se considera 'seco'. Como término general, para los granos como Maíz y Sorgo, una humedad del 14% se considera el límite para estimarlo como 'seco'. En el caso del Trigo Cristalino y Harinero 12 % se considera su límite.",
-            "link": "servicios/secado-de-grano"
-        },
-        {
-            "title": "Transporte de mercancía",
-            "image": "static/images/services/transporte.jpg",
-            "description": "En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.",
-            "link": "servicios/transporte-de-mercancia"
-        },
-        {
-            "title": "Importación de granos",
-            "image": "static/images/services/maiz_cribado.jpg",
-            "description": "El Comercio Exterior es el intercambio de bienes, servicios y capitales entre diferentes países. Cuando un país necesita ingresar productos se produce la importación, la que es definida como 'la introducción legal de mercancía extranjera para su uso o consumo del país'",
-            "link": "servicios/importacion-de-granos"
-        },
-        {
-            "title": "Almacenaje y conservación",
-            "image": "static/images/services/silos_costales.jpg",
-            "description": "El valor económico, alimenticio agrícola e industrial asociado a los granos y semillas requieren de cuidados especiales para garantizar su calidad y esta debe mantenerse durante el tiempo necesario hasta el momento de su uso. El almacenamiento se refiere a la concentración de algún producto o insumo en lugares especialmente diseñados para tal efecto.",
-            "link": "servicios/almacenaje-y-conservacion"
+            "title": "Fondo de Aseguramiento",
+            "image": "static/images/services/coins.jpg",
+            "description": "Fondo de Aseguramiento.",
+            "link": "servicios/fondo-aseguramiento"
         },
         {
             "title": "Servicio de espuela",
@@ -54,6 +24,42 @@
             "image": "static/images/services/proceso_criba.jpg",
             "description": "Se cuenta con servicios de cribado y almacenaje de diferentes granos para consumo humano y semillas con capacidad de 60 toneladas por hora.",
             "link": "servicios/servicio-cribado"
+        },
+        {
+            "title": "Almacenaje y conservación",
+            "image": "static/images/services/silos_costales.jpg",
+            "description": "El valor económico, alimenticio agrícola e industrial asociado a los granos y semillas requieren de cuidados especiales para garantizar su calidad y esta debe mantenerse durante el tiempo necesario hasta el momento de su uso. El almacenamiento se refiere a la concentración de algún producto o insumo en lugares especialmente diseñados para tal efecto.",
+            "link": "servicios/almacenaje-y-conservacion"
+        },
+        {
+            "title": "Secado de granos",
+            "image": "static/images/services/secado_grano.jpg",
+            "description": "Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con secadora de flujo continuo.",
+            "link": "servicios/secado-de-grano"
+        },
+        {
+            "title": "Transporte de mercancía",
+            "image": "static/images/services/transporte.jpg",
+            "description": "En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.",
+            "link": "servicios/transporte-de-mercancia"
+        },
+        {
+            "title": "Importación de granos",
+            "image": "static/images/services/maiz_cribado.jpg",
+            "description": "Alinsumos cuenta con los permisos, los contactos y la logística necesaria para introducir los insumos o ingredientes necesarios a un mejor desempeño de su empresa, teniendo la confianza de que en cada momento usted sabrá la ubicación de su producto.",
+            "link": "servicios/importacion-de-granos"
+        },
+        {
+            "title": "Pignoración de granos",
+            "image": "static/images/services/trigo_granos.jpg",
+            "description": "Se refiere al término pignorar que significa 'dar o dejar en prenda'. Es cuando se deposita temporalmente la totalidad o una parte de la cosecha y se obtiene un documento expedido por un almacén general de depósito que certifica la existencia del grano, mediante el cual, el productor esta en posibilidad de obtener un crédito prendario con un agente financiero.",
+            "link": "servicios/pignoracion-de-granos"
+        },
+        {
+            "title": "Despepitadora de algodón",
+            "image": "static/images/services/cotton.jpg",
+            "description": "En Alinsumos estamos siempre al pendiente de las necesidades de nuestros productores, razón por la cual ponemos en marcha la planta despepitadora de algodón, ubicada en calle 600 y 3 del valle del yaqui cuenta con dos plantas una Murray 1080 y una Murray 690 con capacidad de 350 pacas diarias, con la cual se dará servicio a más de 4000 has.",
+            "link": "servicios/despepitadora-de-algodon"
         }
     ]
   }

@@ -1,19 +1,18 @@
 <template>
 <div class="card custom appear">
   <figure>
-    <img class="card-img-top" :src="base_url+'static/images/services/secadora.jpg'" alt="Card image cap">
+    <img class="card-img-top" :src="base_url+'static/images/services/money.jpg'" alt="Card image cap">
   </figure>
   <div class="card-body cardBodyCustom">
-    <h5 class="card-title">Secado de granos</h5>
-    <p class="card-text" ALIGN="justify">Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con secadora de flujo continuo.
-    <p class="card-text paragraph"></p>
+    <h5 class="card-title">Fondo de Aseguramiento</h5>
+    <p class="card-text" ALIGN="justify"></p>
   </div>
 </div>
 </template>
 
 <script>
 export default {
-  name: 'DryingGrains',
+  name: 'InsuranceFund',
   data () {
     return {
       base_url: process.env.BASE_URL
@@ -33,10 +32,6 @@ export default {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
-}
-.paragraph {
-  padding-left: 5%;
-  font-size: 13px;
 }
 figure {
   height: 300px;

@@ -5,7 +5,7 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title aling">Objetivo</h5>
-    <p class="card-text" ALIGN="justify">La ParaFinanciera ALIFIN tiene como Principal Objetivo el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.</p>
+    <p class="card-text" ALIGN="justify">Alifin como Parafinanciera, tiene como objetivo principal el gestionar, obtener y otorgar financiamiento agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.</p>
     <h5 class="card-title">Misión</h5>
     <p class="card-text" ALIGN="justify">Contribuir al desarrollo de los productores del campo participando con oportunidades en el otorgamiento del crédito y tecnificándolos para aumentar el aprovechamiento de los recursos.</p>
     <h5 class="card-title center">Servicios</h5>

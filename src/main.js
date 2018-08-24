@@ -64,6 +64,7 @@ import ImportGrains from '@/components/services/components/ImportGrains.vue'
 import StorageConservation from '@/components/services/components/StorageConservation.vue'
 import Spur from '@/components/services/components/Spur.vue'
 import Sifting from '@/components/services/components/Sifting.vue'
+import InsuranceFund from '@/components/services/components/InsuranceFund.vue'
 
 //  -------------------- End Services --------------------  //
 
@@ -141,7 +142,8 @@ const routes = [
       { path: 'importacion-de-granos', components: { services: ImportGrains } },
       { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } },
       { path: 'servicio-espuela', components: { services: Spur } },
-      { path: 'servicio-cribado', components: { services: Sifting } }
+      { path: 'servicio-cribado', components: { services: Sifting } },
+      { path: 'fondo-aseguramiento', components: { services: InsuranceFund } }
     ]
   }
 ]

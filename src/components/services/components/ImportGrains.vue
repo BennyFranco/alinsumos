@@ -10,7 +10,7 @@
 
     </p>
     <p class="card-text" ALIGN="justify">
-        A pesar de las ventajas del Tratado de Libre Comercio (TLC), es importante considerar algunos aspectos que limitan la entrada de insumos provenientes del extranjero, lo que se conoce como aranceles aduaneros de importación. Una buena decisión en la adquisición de algún insumo o ingrediente logrará hacer a su empresa más competitiva en el mercado local y nacional, para ello en Alinsumos SA de CV contamos con los permisos, los contactos y la logística necesaria para introducir los insumos o ingredientes necesarios a un mejor desempeño de su empresa, teniendo la confianza de que en cada momento usted sabrá la ubicación de su producto.
+        Alinsumos cuenta con los permisos, los contactos y la logística necesaria para introducir los insumos o ingredientes necesarios a un mejor desempeño de su empresa, teniendo la confianza de que en cada momento usted sabrá la ubicación de su producto.
       </p>
   </div>
 </div>
