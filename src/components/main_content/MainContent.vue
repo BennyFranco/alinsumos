@@ -29,11 +29,7 @@
         <br>
       </div>
       <div class="col-xs-6 col-md-4 hidden-xs">
-        <div class="embed-responsive embed-responsive-4by3">
-          <video class="embed-responsive-item" controls>
-            <source src="static/video/director-message.mp4" type="video/mp4"> Your browser does not support the video tag.
-          </video>
-        </div>
+        <img src="static/images/spike.jpg" alt="Nature" class="responsive-img">
       </div>
     </div>
   </div>
@@ -84,8 +80,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.charmain-video {
-  width: 320px;
-  height: 250px;
+.responsive-img {
+    /*filter:hue-rotate(40deg);*/
+    width: 100%;
+    height: auto;
 }
 </style>
