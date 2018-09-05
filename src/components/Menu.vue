@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="md" type="dark" variant="" fixed="top">
-    <b-navbar-brand :href="base_url"><img :src="base_url+'static/images/imagotipo_web.svg'" alt="Alinsumos"/></b-navbar-brand>
+    <b-navbar-brand :href="base_url"><img :src="base_url+'static/images/imagotipo_web.png'" alt="Alinsumos"/></b-navbar-brand>
 
     <b-navbar-toggle @click.native="change" target="nav_collapse"></b-navbar-toggle>
 
@@ -42,8 +42,10 @@ export default {
             document.getElementsByTagName('nav')[0].classList.contains('v-end')
           ) {
             document.getElementsByTagName('nav')[0].classList.remove('v-end')
+            document.getElementsByTagName('img')[0].classList.remove('appear-img')
           }
           document.getElementsByTagName('nav')[0].classList.add('v-start')
+          document.getElementsByTagName('img')[0].classList.add('disapear-img')
         } else if (!this.isToggleClicked) {
           if (
             document
@@ -51,8 +53,10 @@ export default {
               .classList.contains('v-start')
           ) {
             document.getElementsByTagName('nav')[0].classList.remove('v-start')
+            document.getElementsByTagName('img')[0].classList.remove('disapear-img')
           }
           document.getElementsByTagName('nav')[0].classList.add('v-end')
+          document.getElementsByTagName('img')[0].classList.add('appear-img')
         }
       }
     },
@@ -62,10 +66,13 @@ export default {
           document.getElementsByTagName('nav')[0].classList.contains('v-end')
         ) {
           document.getElementsByTagName('nav')[0].classList.remove('v-end')
+          document.getElementsByTagName('img')[0].classList.remove('appear-img')
         }
         document.getElementsByTagName('nav')[0].classList.add('v-start')
+        document.getElementsByTagName('img')[0].classList.add('disapear-img')
       } else {
         document.getElementsByTagName('nav')[0].classList.add('v-end')
+        document.getElementsByTagName('img')[0].classList.add('appear-img')
       }
     },
     change () {
@@ -76,9 +83,15 @@ export default {
         ) {
           document.getElementsByTagName('nav')[0].classList.remove('v-end')
           document.getElementsByTagName('nav')[0].classList.add('v-start')
+
+          document.getElementsByTagName('img')[0].classList.remove('appear-img')
+          document.getElementsByTagName('img')[0].classList.add('disapear-img')
         } else {
           document.getElementsByTagName('nav')[0].classList.add('v-end')
           document.getElementsByTagName('nav')[0].classList.remove('v-start')
+
+          document.getElementsByTagName('img')[0].classList.add('appear-img')
+          document.getElementsByTagName('img')[0].classList.remove('disapear-img')
         }
       }
     }
@@ -160,5 +173,22 @@ export default {
     background-color: transparent;
   }
 }
-
+.appear-img {
+  background-color:transparent;
+  border-radius: 3%;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.disapear-img {
+  background-color:white;
+  border-radius: 3%;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 90%;
+  height: 90%;
+}
 </style>

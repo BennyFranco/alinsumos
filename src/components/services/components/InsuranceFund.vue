@@ -5,7 +5,9 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Fondo de Aseguramiento</h5>
-    <p class="card-text" ALIGN="justify"></p>
+    <p class="card-text" ALIGN="justify">
+      Se dedica al Aseguramiento de cultivos agrícolas en los ciclos otoño-invierno, primavera-verano, de los socios del Fondo de Aseguramiento, con procesos de la programación, contratación del reaseguro, suscripción y siniestros e indemnizaciones; así como la administración de las cuotas cubiertas por el fondo para la constitución de reservas, pago de siniestros, programación de los gastos de operación, administración personal de campo para atención de los socios, como la atención en las instalaciones físicas del fondo de aseguramiento.
+    </p>
   </div>
 </div>
 </template>

@@ -1,10 +1,11 @@
 <template>
     <div class="parallax" id="top">
     <!-- Parallax Content -->
+      <div class="parallax-overlay">
         <div class="jumbotron text-center">
             <div class="title-elements">
             <div class="title-text">
-                <img src="static/images/logo_white.svg" alt="Alinsumos"/>
+                <img src="static/images/Logo.png" alt="Alinsumos"/>
             </div>
                 <div id="slogan-text" class="title-text">
                     <vue-typed-js :strings="['¡Apoyando productores ^1000 <br/> cosechando éxitos!']" :showCursor="false">
@@ -18,6 +19,7 @@
               </a>
             </div>
         </div>
+      </div>
     </div>
 </template>
 
@@ -60,6 +62,7 @@ export default {
 a {
   animation:  apear 6s;
 }
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(0, -1px, 0);
@@ -103,7 +106,8 @@ a {
     flex-direction: column;
     }
   img{
-    height: 95%;
+    height: 95% !important;
+    width: 95% !important;
   }
 }
 @media screen and (max-height: 600px) {
@@ -125,7 +129,8 @@ a {
     flex-direction: column;
     }
   img{
-    height: 95%;
+    height: 95% !important;
+    width: 95% !important;
   }
 }
 </style>
