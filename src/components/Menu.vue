@@ -128,8 +128,12 @@ export default {
   padding-bottom: 0;
 }
 .navbar .navbar-brand {
-  color: #fff !important;
-  padding: 10px 0;
+  padding: 10px 35px 10px 5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 128, 0, 0.733);
+  background-color: white;
+  -webkit-clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
 }
 .navbar li a {
   color: #fff !important;
@@ -173,22 +177,5 @@ export default {
     background-color: transparent;
   }
 }
-.appear-img {
-  background-color:transparent;
-  border-radius: 3%;
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-.disapear-img {
-  background-color:white;
-  border-radius: 3%;
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  width: 90%;
-  height: 90%;
-}
+
 </style>
