@@ -27,6 +27,18 @@ export default {
 </script>
 
 <style>
+@font-face {
+    font-family: "Ubuntu";
+    src: url(assets/js/UbuntuCondensed-Regular.ttf) format("truetype");
+}
+h2 {
+  font-family: "Ubuntu" ;
+  font-weight: bold;
+  font-size: 44px;
+}
+h4 {
+  font-family: "Ubuntu" ;
+}
 .parallax {
   /* The image used */
   background-image: url('assets/b2.jpg');
@@ -38,5 +50,8 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   z-index:1;
+}
+.page-header{
+  padding-top: 3%;
 }
 </style>

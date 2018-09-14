@@ -41,7 +41,7 @@ export default {
 .title-text {
   margin: 1% auto;
   text-shadow: 2px 3px 4px #000;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 .title-elements {
   display: flex;

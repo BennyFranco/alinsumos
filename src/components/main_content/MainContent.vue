@@ -83,4 +83,10 @@ export default {
     width: 100%;
     height: auto;
 }
+h4 {
+  font-family: inherit !important;
+}
+h2 {
+  font-family: "Ubuntu" !important;
+}
 </style>

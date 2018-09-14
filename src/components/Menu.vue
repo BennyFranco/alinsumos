@@ -42,10 +42,8 @@ export default {
             document.getElementsByTagName('nav')[0].classList.contains('v-end')
           ) {
             document.getElementsByTagName('nav')[0].classList.remove('v-end')
-            document.getElementsByTagName('img')[0].classList.remove('appear-img')
           }
           document.getElementsByTagName('nav')[0].classList.add('v-start')
-          document.getElementsByTagName('img')[0].classList.add('disapear-img')
         } else if (!this.isToggleClicked) {
           if (
             document
@@ -53,10 +51,8 @@ export default {
               .classList.contains('v-start')
           ) {
             document.getElementsByTagName('nav')[0].classList.remove('v-start')
-            document.getElementsByTagName('img')[0].classList.remove('disapear-img')
           }
           document.getElementsByTagName('nav')[0].classList.add('v-end')
-          document.getElementsByTagName('img')[0].classList.add('appear-img')
         }
       }
     },
@@ -66,13 +62,10 @@ export default {
           document.getElementsByTagName('nav')[0].classList.contains('v-end')
         ) {
           document.getElementsByTagName('nav')[0].classList.remove('v-end')
-          document.getElementsByTagName('img')[0].classList.remove('appear-img')
         }
         document.getElementsByTagName('nav')[0].classList.add('v-start')
-        document.getElementsByTagName('img')[0].classList.add('disapear-img')
       } else {
         document.getElementsByTagName('nav')[0].classList.add('v-end')
-        document.getElementsByTagName('img')[0].classList.add('appear-img')
       }
     },
     change () {
@@ -83,15 +76,9 @@ export default {
         ) {
           document.getElementsByTagName('nav')[0].classList.remove('v-end')
           document.getElementsByTagName('nav')[0].classList.add('v-start')
-
-          document.getElementsByTagName('img')[0].classList.remove('appear-img')
-          document.getElementsByTagName('img')[0].classList.add('disapear-img')
         } else {
           document.getElementsByTagName('nav')[0].classList.add('v-end')
           document.getElementsByTagName('nav')[0].classList.remove('v-start')
-
-          document.getElementsByTagName('img')[0].classList.add('appear-img')
-          document.getElementsByTagName('img')[0].classList.remove('disapear-img')
         }
       }
     }
@@ -131,7 +118,7 @@ export default {
   padding: 10px 35px 10px 5px;
   border-bottom-style: solid;
   border-bottom-color: rgba(0, 128, 0, 0.733);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   -webkit-clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
 }
