@@ -36,6 +36,8 @@ export default {
   methods: {
     updateScroll: function () {
       this.scrollPosition = window.scrollY
+      console.log(this.scrollPosition)
+      console.log(this.isToggleClicked)
       if (this.$route.path == '/') {
         if (window.scrollY > 500) {
           if (
@@ -65,7 +67,11 @@ export default {
         }
         document.getElementsByTagName('nav')[0].classList.add('v-start')
       } else {
-        document.getElementsByTagName('nav')[0].classList.add('v-end')
+        if (window.scrollY > 500) {
+          document.getElementsByTagName('nav')[0].classList.add('v-start')
+        } else {
+          document.getElementsByTagName('nav')[0].classList.add('v-end')
+        }
       }
     },
     change () {
