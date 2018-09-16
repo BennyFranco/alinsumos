@@ -93,6 +93,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.ml-auto {
+  padding-left: 15px;
+}
 .logo-small {
   color: #884f20;
   font-size: 50px;
@@ -111,6 +114,7 @@ export default {
   letter-spacing: 4px;
   border-radius: 0;
   font-weight: 700;
+  font-family: 'UbuntuBold';
   padding-left: 0px;
   padding-top: 0;
   padding-bottom: 0;
@@ -134,10 +138,6 @@ export default {
 .navbar li :active {
   background-color: rgba(255, 255, 255, 0.4) !important;
 }
-/*.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff !important;
-}*/
 
 .v-start {
   animation: fadein 1s;

@@ -42,12 +42,23 @@ figure img {
   display: block;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  figure {
+  height: auto;
+  }
+}
+@media screen and (max-height: 600px) {
+  figure {
+  height: auto;
+  }
+}
 .appear {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
   animation-name: example;
   animation-duration: 0.25s;
 }
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0% {
@@ -63,7 +74,6 @@ figure img {
     filter: blur(0px);
   }
 }
-
 /* Standard syntax */
 @keyframes example {
   0% {

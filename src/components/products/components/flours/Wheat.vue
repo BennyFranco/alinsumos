@@ -56,6 +56,9 @@ hr {
   -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
   animation-name: example;
   animation-duration: 0.25s;
+  box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+  -moz-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+  -webkit-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -86,6 +89,26 @@ hr {
   }
   100% {
     filter: blur(0px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
   }
 }
 </style>

@@ -34,15 +34,15 @@ export default {
 .jumbotron {
   color: #fff;
   padding: 100px 25px;
-  font-family: Montserrat, sans-serif;
   height: 100vh;
   background: none;
+  font-family: 'UbuntuBold';
 }
 .title-text {
   margin: 1% auto;
   text-shadow: 2px 3px 4px #000;
   font-size: 3.0em;
-  font-family: 'UbuntuBold';
+
 }
 .title-elements {
   display: flex;
@@ -95,8 +95,8 @@ a {
     color: #fff;
     padding: 0px 0px;
     padding-top: 20%;
-    font-family: Montserrat, sans-serif;
     height: 100vh;
+    font-family: 'UbuntuBold';
     background: none;
     }
   .title-text {
@@ -118,8 +118,8 @@ a {
     color: #fff;
     padding: 0px 0px;
     padding-top: 0;
-    font-family: Montserrat, sans-serif;
     height: 100vh;
+    font-family: 'UbuntuBold';
     background: none;
     }
   .title-text {

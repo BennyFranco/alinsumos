@@ -4,7 +4,7 @@
         <h1>Servicios</h1>
     </div>
     <div class="row">
-        <div class="col-sm-5 col-md-3">
+        <div class="col-sm-5 col-md-3 space">
             <!-- <b-nav vertical class="w-25"> -->
             <b-nav vertical pills>
               <b-nav-item to="/servicios/parafinanciera">ParaFinanciera</b-nav-item>
@@ -50,5 +50,8 @@ export default {
 }
 a {
   color: #77a23d;
+}
+.space {
+  padding-bottom: 20px;
 }
 </style>

@@ -36,13 +36,23 @@ export default {
   padding-top: 5%;
 }
 figure {
-  height: 300px; /*container-width*/
-  overflow: hidden; /*hide bounds of image */
-  margin: 0; /*reset margin of figure tag*/
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
 }
 figure img {
-  display: block; /*remove inline-block spaces*/
-  width: 100%; /*make image streatch*/
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  figure {
+  height: auto;
+  }
+}
+@media screen and (max-height: 600px) {
+  figure {
+  height: auto;
+  }
 }
 .appear {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
