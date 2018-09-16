@@ -29,7 +29,11 @@ export default {
 <style>
 @font-face {
     font-family: "Ubuntu";
-    src: url(assets/js/UbuntuCondensed-Regular.ttf) format("truetype");
+    src: url(assets/css/fonts/UbuntuCondensed-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "UbuntuBold";
+    src: url(assets/css/fonts/Ubuntu-Bold.ttf) format("truetype");
 }
 h2 {
   font-family: "Ubuntu" ;

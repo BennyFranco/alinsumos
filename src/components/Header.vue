@@ -41,7 +41,8 @@ export default {
 .title-text {
   margin: 1% auto;
   text-shadow: 2px 3px 4px #000;
-  font-size: 2.5em;
+  font-size: 3.0em;
+  font-family: 'UbuntuBold';
 }
 .title-elements {
   display: flex;
@@ -51,6 +52,9 @@ export default {
   padding-top: 3%;
   font-size:75px;
   color:#fff;
+}
+p.typing{
+  text-shadow: 6px 6px 18px rgb(0, 0, 0);
 }
 /* ----------animation----------- */
 .animation{
@@ -62,7 +66,6 @@ export default {
 a {
   animation:  apear 6s;
 }
-
 @keyframes shake {
   10%, 90% {
     transform: translate3d(0, -1px, 0);

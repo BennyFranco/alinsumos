@@ -111,6 +111,7 @@ export default {
   letter-spacing: 4px;
   border-radius: 0;
   font-weight: 700;
+  padding-left: 0px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -127,6 +128,7 @@ export default {
   text-transform: uppercase;
   text-shadow: 2px 3px 4px #000;
   font-size: 14px;
+
 }
 .navbar li :hover,
 .navbar li :active {
@@ -164,5 +166,4 @@ export default {
     background-color: transparent;
   }
 }
-
 </style>
