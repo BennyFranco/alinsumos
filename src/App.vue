@@ -38,7 +38,7 @@ export default {
 h2 {
   font-family: "Ubuntu" ;
   font-weight: bold;
-  font-size: 44px;
+  font-size: 34px !important;
 }
 h4 {
   font-family: "Ubuntu" ;
