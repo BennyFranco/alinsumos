@@ -5,7 +5,7 @@
     <div class="col-sm-8">
       <p>Estámos para atenderte en:</p>
       <address>
-          <strong>Alinsumos, S.A. de C.V.</strong><br>
+          <h5><strong>Alinsumos, S.A. de C.V.</strong></h5>
           Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.
           Cd. Obregón, Sonora, México.<br/>
           <i class="fa fa-phone mr-3"></i> <a href="tel:+52 (644) 413 99 29"> +52 (644) 413 99 29</a>
@@ -45,4 +45,10 @@ export default {
 </script>
 
 <style scoped>
+.strong {
+  color: aqua;
+}
+#contact {
+  font-size: 18px;
+}
 </style>

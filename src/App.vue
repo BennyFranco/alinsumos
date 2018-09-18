@@ -27,22 +27,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-    font-family: "Ubuntu";
-    src: url(assets/css/fonts/UbuntuCondensed-Regular.ttf) format("truetype");
-}
-@font-face {
-    font-family: "UbuntuBold";
-    src: url(assets/css/fonts/Ubuntu-Bold.ttf) format("truetype");
-}
-h2 {
-  font-family: "Ubuntu" ;
-  font-weight: bold;
-  font-size: 34px !important;
-}
-h4 {
-  font-family: "Ubuntu" ;
-}
 .parallax {
   /* The image used */
   background-image: url('assets/b2.jpg');

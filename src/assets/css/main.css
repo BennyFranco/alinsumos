@@ -1,27 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: "Ubuntu";
+  src: url(fonts/UbuntuCondensed-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "UbuntuBold";
+  src: url(fonts/Ubuntu-Bold.ttf) format("truetype");
+}
 
 body {
-  font: 400 15px -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Ubuntu";
   line-height: 1.8;
-  color: #818181;
+  color: #39393a;
 }
 
 h2 {
-  font-size: 24px;
+  font-family: "Ubuntu";
+  font-size: 44px;
   text-transform: uppercase;
-  color: #303030;
+  color: #111111;
+  text-shadow: 5px 0px 10px rgba(0, 0, 0, 0.4);
   font-weight: 600;
   margin-bottom: 30px;
 }
-
 h4 {
-  font-size: 19px;
+  font-family: "Ubuntu";
+  font-size: 22px;
   line-height: 1.375em;
-  color: #303030;
+  color: #1b1a1a;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+h3 {
+  font-family: "UbuntuBold";
+  font-size: 1.75rem;
+  line-height: 1.375em;
+  color: #2e2c2c;
   font-weight: 400;
   margin-bottom: 30px;
 }
+h1 {
+  color: #000000;
+}
 
+h5 {
+  color: #000000;
+}
 .container-fluid {
   padding: 60px 50px;
 }
