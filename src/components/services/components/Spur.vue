@@ -6,7 +6,7 @@
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Servicio de espuela</h5>
     <p class="card-text" ALIGN="justify">
-      Se cuenta con una espuela de ferrocarril  con capacidad de 25 tolvas para comercialización y prestación de servicios de granos y pastas.
+      Se cuenta con una espuela de ferrocarril con capacidad de 25 tolvas para descarga y carga de cualquier producto, ya sea encostalado, granel o en otra presentación que el cliente requiera.
     </p>
   </div>
 </div>

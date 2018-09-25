@@ -10,13 +10,13 @@
         {
             "title": "Fondo de Aseguramiento",
             "image": "static/images/services/coins.jpg",
-            "description": "Se dedica al Aseguramiento de cultivos agrícolas en los ciclos otoño-invierno, primavera-verano, de los socios del Fondo de Aseguramiento, con procesos de la programación, contratación del reaseguro, suscripción y siniestros e indemnizaciones; así como la administración de las cuotas cubiertas por el fondo para la constitución de reservas, pago de siniestros, programación de los gastos de operación, administración personal de campo para atención de los socios, como la atención en las instalaciones físicas del fondo de aseguramiento.",
+            "description": "Se dedica al Aseguramiento de cultivos agrícolas en los ciclos otoño-invierno, primavera-verano, de los socios del Fondo de Aseguramiento, con procesos de la programación, contratación del reaseguro, suscripción y siniestros; así como la administración de las cuotas cubiertas por el fondo para la constitución de reservas, pago de siniestros, programación de los gastos de operación, administración personal de campo para atención de los socios, como la atención en las instalaciones físicas del fondo de aseguramiento.",
             "link": "servicios/fondo-aseguramiento"
         },
         {
             "title": "Servicio de espuela",
             "image": "static/images/services/espuela_ferrocarril.jpg",
-            "description": "Se cuenta con una espuela de ferrocarril  con capacidad de 25 tolvas para comercialización y prestación de servicios de granos y pastas.",
+            "description": "Se cuenta con una espuela de ferrocarril con capacidad de 25 tolvas para descarga y carga de cualquier producto, ya sea encostalado, granel  o en otra presentación que el cliente requiera.",
             "link": "servicios/servicio-espuela"
         },
         {
@@ -34,7 +34,7 @@
         {
             "title": "Secado de granos",
             "image": "static/images/services/secado_grano.jpg",
-            "description": "Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con secadora de flujo continuo.",
+            "description": "Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con capacidad de secado hasta 60 Ton/Hr",
             "link": "servicios/secado-de-grano"
         },
         {

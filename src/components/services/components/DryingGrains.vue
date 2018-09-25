@@ -5,7 +5,8 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Secado de granos</h5>
-    <p class="card-text" ALIGN="justify">Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con secadora de flujo continuo.
+    <p class="card-text" ALIGN="justify">
+      Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con capacidad de secado hasta 60 Ton/Hr
     <p class="card-text paragraph"></p>
   </div>
 </div>
