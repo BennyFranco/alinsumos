@@ -29,7 +29,7 @@ export default {
 <style>
 .parallax {
   /* The image used */
-  background-image: url('assets/corn-header.jpg');
+  background-image: url('assets/b2.jpg');
   /* Full height */
   height: 100vh;
   /* Create the parallax scrolling effect */
@@ -37,5 +37,9 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index:1;
+}
+.page-header{
+  padding-top: 3%;
 }
 </style>

@@ -52,6 +52,8 @@ import Vegetal from '@/components/products/components/oils/Vegetal.vue'
 
 //  -------------------- End Oils --------------------  //
 
+//  ---------------------- Services ----------------------  //
+
 import Services from '@/components/services/Services.vue'
 import ForFinancial from '@/components/services/components/ForFinancial.vue'
 import CottonGins from '@/components/services/components/CottonGins.vue'
@@ -60,6 +62,17 @@ import DryingGrains from '@/components/services/components/DryingGrains.vue'
 import Trucking from '@/components/services/components/Trucking.vue'
 import ImportGrains from '@/components/services/components/ImportGrains.vue'
 import StorageConservation from '@/components/services/components/StorageConservation.vue'
+import Spur from '@/components/services/components/Spur.vue'
+import Sifting from '@/components/services/components/Sifting.vue'
+import InsuranceFund from '@/components/services/components/InsuranceFund.vue'
+
+//  -------------------- End Services --------------------  //
+
+//  -------------------- End Oils --------------------  //
+
+import Feedback from '@/components/Feedback.vue'
+
+//  -------------------- End Oils --------------------  //
 
 Vue.use(VueRouter)
 Vue.use(VueTypedJs)
@@ -72,6 +85,7 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/', component: MainContent },
+  { path: '/gracias', component: Feedback },
   { path: '/directorio', component: Directory },
   {
     path: '/productos/granos',
@@ -126,7 +140,10 @@ const routes = [
       { path: 'secado-de-grano', components: { services: DryingGrains } },
       { path: 'transporte-de-mercancia', components: { services: Trucking } },
       { path: 'importacion-de-granos', components: { services: ImportGrains } },
-      { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } }
+      { path: 'almacenaje-y-conservacion', components: { services: StorageConservation } },
+      { path: 'servicio-espuela', components: { services: Spur } },
+      { path: 'servicio-cribado', components: { services: Sifting } },
+      { path: 'fondo-aseguramiento', components: { services: InsuranceFund } }
     ]
   }
 ]

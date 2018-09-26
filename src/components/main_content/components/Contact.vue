@@ -5,29 +5,34 @@
     <div class="col-sm-8">
       <p>Estámos para atenderte en:</p>
       <address>
-          <strong>Alinsumos, S.A. de C.V.</strong><br>
+          <h5><strong>Alinsumos, S.A. de C.V.</strong></h5>
           Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.
           Cd. Obregón, Sonora, México.<br/>
-          <abbr title="Teléfono">T:</abbr> +52 (644) 413 99 29
+          <i class="fa fa-phone mr-3"></i> <a href="tel:+52 (644) 413 99 29"> +52 (644) 413 99 29</a>
         </address>
       <p>O consulta nuestro directorio:</p>
       <b-button size="sm" variant="outline-success" href="directorio">Ver directorio</b-button>
     </div>
     <div class="col-sm-4">
+      <form action="https://formspree.io/recursoshumanos@alinsumos.com" method="POST">
       <div class="row">
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+          <input class="form-control" id="name" name="Nombre" placeholder="Nombre" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Correo electrónico" type="email" required>
+          <input class="form-control" id="email" name="E-mail" placeholder="Correo electrónico" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="Comentarios" placeholder="Comentario" rows="5"></textarea><br>
+      <input type="hidden" name="_next" value="https://bennyfranco.github.io/alinsumos/gracias" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_subject" value="[Alinsumos.com] Nuevo mensaje desde el sitio web" />
       <div class="row">
         <div class="col-sm-12 form-group">
           <button class="btn btn-default pull-right" type="submit">Enviar</button>
         </div>
       </div>
+      </form>
     </div>
   </div>
 </div>
@@ -40,4 +45,10 @@ export default {
 </script>
 
 <style scoped>
+.strong {
+  color: aqua;
+}
+#contact {
+  font-size: 18px;
+}
 </style>

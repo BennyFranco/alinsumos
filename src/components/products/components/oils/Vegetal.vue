@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="De origen vegetal" :src="base_url+'static/images/products/oils/vegetal.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         De acuerdo a la planta de la cual se obtiene pueden variar las propiedades y la consistencia, pudiendo ser liquidas, semisólidas o solidas, las grasas están constituidas por la combinación de ácidos grasos con la glicerina. Los principales ácidos grasos son el esteárico, el palmítico y el oleico; pero hay otros más que frecuentemente entran en la composición de las grasas.
         </p>
     </div>
@@ -54,6 +54,9 @@ hr{
     -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 0.25s;
+    box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -moz-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -webkit-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -63,12 +66,31 @@ hr{
     100% {filter:blur(0px);}
 
 }
-
 /* Standard syntax */
 @keyframes example {
     0%   {filter:blur(50px);}
     25%  {filter:blur(25px);}
     50%  {filter:blur(12.5px);}
     100% {filter:blur(0px);}
+}
+@media screen and (max-width: 768px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
 }
 </style>

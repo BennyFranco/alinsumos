@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Maíz Forrajero" :src="base_url+'static/images/products/grains/maiz-forrajero.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         El maíz como parte de las mezclas para alimento destaca por su riqueza en hidratos de carbono proporcionados por su abundante almidón.
           Como consecuencia es un alimento muy saciable y muy completo, posee una proporción
           muy elevada de proteínas y aunque no todas son asimilables posee también porcentajes muy elevados de potasio hierro y fosforo.
@@ -53,6 +53,9 @@ hr {
   -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
   animation-name: example;
   animation-duration: 0.25s;
+  box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -moz-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -webkit-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -69,7 +72,6 @@ hr {
     filter: blur(0px);
   }
 }
-
 /* Standard syntax */
 @keyframes example {
   0% {
@@ -83,6 +85,26 @@ hr {
   }
   100% {
     filter: blur(0px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
   }
 }
 </style>

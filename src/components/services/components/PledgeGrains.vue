@@ -5,7 +5,7 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Pignoración de granos</h5>
-    <p class="card-text">Se refiere al término pignorar que significa ''dar o dejar en prenda''. Es cuando se deposita temporalmente la totalidad o una parte de la cosecha y se obtiene un documento expedido por un almacén general de depósito que certifica la existencia del grano, mediante el cual, el productor esta en posibilidad de obtener un crédito prendario con un agente financiero.</p>
+    <p class="card-text" ALIGN="justify">Se refiere al término pignorar que significa ''dar o dejar en prenda''. Es cuando se deposita temporalmente la totalidad o una parte de la cosecha y se obtiene un documento expedido por un almacén general de depósito que certifica la existencia del grano, mediante el cual, el productor esta en posibilidad de obtener un crédito prendario con un agente financiero.</p>
   </div>
 </div>
 </template>
@@ -41,6 +41,16 @@ figure {
 figure img {
   display: block;
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  figure {
+  height: auto;
+  }
+}
+@media screen and (max-height: 600px) {
+  figure {
+  height: auto;
+  }
 }
 .appear {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */

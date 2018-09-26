@@ -1,8 +1,8 @@
 <template>
-  <b-navbar toggleable="md" type="" variant="" fixed="top">
-    <b-navbar-brand :href="base_url"><img :src="base_url+'static/images/imagotipo_web.svg'" alt="Alinsumos"/></b-navbar-brand>
+  <b-navbar toggleable="md" type="dark" variant="" fixed="top">
+    <b-navbar-brand :href="base_url"><img :src="base_url+'static/images/imagotipo_web.png'" alt="Alinsumos"/></b-navbar-brand>
 
-    <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+    <b-navbar-toggle @click.native="change" target="nav_collapse"></b-navbar-toggle>
 
     <b-collapse is-nav id="nav_collapse">
       <!-- Right aligned nav items -->
@@ -29,12 +29,15 @@ export default {
   data () {
     return {
       scrollPosition: 0,
-      base_url: process.env.BASE_URL
+      base_url: process.env.BASE_URL,
+      isToggleClicked: false
     }
   },
   methods: {
     updateScroll: function () {
       this.scrollPosition = window.scrollY
+      console.log(this.scrollPosition)
+      console.log(this.isToggleClicked)
       if (this.$route.path == '/') {
         if (window.scrollY > 500) {
           if (
@@ -43,7 +46,7 @@ export default {
             document.getElementsByTagName('nav')[0].classList.remove('v-end')
           }
           document.getElementsByTagName('nav')[0].classList.add('v-start')
-        } else {
+        } else if (!this.isToggleClicked) {
           if (
             document
               .getElementsByTagName('nav')[0]
@@ -63,18 +66,42 @@ export default {
           document.getElementsByTagName('nav')[0].classList.remove('v-end')
         }
         document.getElementsByTagName('nav')[0].classList.add('v-start')
+      } else {
+        if (window.scrollY > 500) {
+          document.getElementsByTagName('nav')[0].classList.add('v-start')
+        } else {
+          document.getElementsByTagName('nav')[0].classList.add('v-end')
+        }
+      }
+    },
+    change () {
+      if (window.scrollY <= 500 && this.$route.path == '/') {
+        this.isToggleClicked = !this.isToggleClicked
+        if (
+          document.getElementsByTagName('nav')[0].classList.contains('v-end')
+        ) {
+          document.getElementsByTagName('nav')[0].classList.remove('v-end')
+          document.getElementsByTagName('nav')[0].classList.add('v-start')
+        } else {
+          document.getElementsByTagName('nav')[0].classList.add('v-end')
+          document.getElementsByTagName('nav')[0].classList.remove('v-start')
+        }
       }
     }
   },
   mounted () {
     window.addEventListener('scroll', this.updateScroll)
     window.addEventListener('load', this.menuMustbeTransparent)
+    // window.addEventListener('nav_collapse', this.change)
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.ml-auto {
+  padding-left: 15px;
+}
 .logo-small {
   color: #884f20;
   font-size: 50px;
@@ -93,26 +120,29 @@ export default {
   letter-spacing: 4px;
   border-radius: 0;
   font-weight: 700;
+  font-family: 'UbuntuBold';
+  padding-left: 0px;
   padding-top: 0;
   padding-bottom: 0;
 }
 .navbar .navbar-brand {
-  color: #fff !important;
-  padding: 10px 0;
+  padding: 10px 35px 10px 5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 128, 0, 0.733);
+  background-color: rgb(255, 255, 255);
+  -webkit-clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
 }
 .navbar li a {
   color: #fff !important;
   text-transform: uppercase;
   text-shadow: 2px 3px 4px #000;
   font-size: 14px;
+
 }
 .navbar li :hover,
 .navbar li :active {
   background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff !important;
 }
 
 .v-start {

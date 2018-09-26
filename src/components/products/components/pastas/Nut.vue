@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Nuez" :src="base_url+'static/images/products/pastas/nuez.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         La Harina de nuez ha empezado a tener uso en la alimentación animal por su alto contenido graso,
           lo que aporta energía a la dieta proporcionando una cantidad elevada de calorías.
         </p>
@@ -55,6 +55,9 @@ hr{
     -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 0.25s;
+    box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -moz-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -webkit-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -71,5 +74,25 @@ hr{
     25%  {filter:blur(25px);}
     50%  {filter:blur(12.5px);}
     100% {filter:blur(0px);}
+}
+@media screen and (max-width: 768px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
 }
 </style>

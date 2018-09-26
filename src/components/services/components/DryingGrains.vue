@@ -5,19 +5,9 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Secado de granos</h5>
-    <p class="card-text">Los granos, como es bien conocido, no pueden conservarse almacenados si no están secos. La cuestión es determinar cuándo un grano se considera "seco". Como término general, para los granos como Maíz y Sorgo, una humedad del 14% se considera el límite para estimarlo como "seco". En el caso del Trigo Cristalino y Harinero 12 % se considera su límite. Para cuamplir con las condiciones antes mencionadas en
-      <strong>
-        ALINSUMOS SA DE CV
-        </strong> contamos con secadora de flujo continuo <strong>
-          (1)
-          </strong>
-          marca MEGA con una capacidad de secado 80 toneladas por hora.
-    </p>
-<p class="card-text paragraph">
-  <strong>
-    1*
-    </strong> Las secadoras de Flujo continuo son aquellas en las que el grano se introduce y descarga en forma continua o intermitente, permaneciendo constantemente llenas las secciones de secado y enfriamiento. Las operaciones de secado y enfriamiento se efectúan en forma simultánea e ininterrumpida.
-  </p>
+    <p class="card-text" ALIGN="justify">
+      Con el fin de cumplir con las condiciones para el correcto almacenaje de granos y semillas, contamos con capacidad de secado hasta 60 Ton/Hr
+    <p class="card-text paragraph"></p>
   </div>
 </div>
 </template>
@@ -57,6 +47,16 @@ figure {
 figure img {
   display: block;
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  figure {
+  height: auto;
+  }
+}
+@media screen and (max-height: 600px) {
+  figure {
+  height: auto;
+  }
 }
 .appear {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */

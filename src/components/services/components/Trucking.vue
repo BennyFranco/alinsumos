@@ -1,11 +1,11 @@
 <template>
 <div class="card custom appear">
     <figure>
-        <img class="card-img-top" :src="base_url+'static/images/services/equipos_transporte.jpg'" alt="Card image cap">
+        <img class="card-img-top" :src="base_url+'static/images/services/camion.jpg'" alt="Card image cap">
     </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Transporte de mercancía</h5>
-    <p class="card-text">En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.</p>
+    <p class="card-text" ALIGN="justify">En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.</p>
   </div>
 </div>
 </template>
@@ -41,6 +41,16 @@ figure {
 figure img {
   display: block;
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  figure {
+  height: auto;
+  }
+}
+@media screen and (max-height: 600px) {
+  figure {
+  height: auto;
+  }
 }
 .appear {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */

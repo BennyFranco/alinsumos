@@ -5,12 +5,12 @@
   </figure>
   <div class="card-body cardBodyCustom">
     <h5 class="card-title">Importación de granos</h5>
-    <p class="card-text">
+    <p class="card-text" ALIGN="justify">
       El Comercio Exterior es el intercambio de bienes, servicios y capitales entre diferentes países. Cuando un país necesita ingresar productos se produce la importación, la que es definida como "la introducción legal de mercancía extranjera para su uso o consumo del país".
 
     </p>
-    <p class="card-text">
-        A pesar de las ventajas del Tratado de Libre Comercio (TLC), es importante considerar algunos aspectos que limitan la entrada de insumos provenientes del extranjero, lo que se conoce como aranceles aduaneros de importación. Una buena decisión en la adquisición de algún insumo o ingrediente logrará hacer a su empresa más competitiva en el mercado local y nacional, para ello en Alinsumos SA de CV contamos con los permisos, los contactos y la logística necesaria para introducir los insumos o ingredientes necesarios a un mejor desempeño de su empresa, teniendo la confianza de que en cada momento usted sabrá la ubicación de su producto.
+    <p class="card-text" ALIGN="justify">
+        Alinsumos cuenta con los permisos, los contactos y la logística necesaria para introducir los insumos o ingredientes necesarios a un mejor desempeño de su empresa, teniendo la confianza de que en cada momento usted sabrá la ubicación de su producto.
       </p>
   </div>
 </div>
@@ -40,13 +40,23 @@ export default {
   padding-top: 5%;
 }
 figure {
-  height: 300px; /*container-width*/
-  overflow: hidden; /*hide bounds of image */
-  margin: 0; /*reset margin of figure tag*/
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
 }
 figure img {
-  display: block; /*remove inline-block spaces*/
-  width: 100%; /*make image streatch*/
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  figure {
+  height: auto;
+  }
+}
+@media screen and (max-height: 600px) {
+  figure {
+  height: auto;
+  }
 }
 .appear {
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */

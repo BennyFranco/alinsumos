@@ -4,7 +4,7 @@
   <hr/>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
           La pasta de canola es un ingrediente alimenticio usado comúnmente y con buenos resultados
           económicos para nuestros clientes en las dietas para gallinas ponedoras y reproductoras,
           así como en pollos de engorda. En la creación por nutriólogos de dietas debidamente balanceadas
@@ -12,7 +12,7 @@
           forma efectiva como la mejor fuente de proteína suplementaria para aves así como también en dietas
           de cerdos en crecimiento, en fase terminal, y en reproducción.
         </p>
-        <p class="rounded textContent">
+        <p class="rounded textContent" ALIGN="justify">
           En ganado vacuno para engorda y lechero la pasta de canola tiene amplia aceptación como un suplemento
           vitamínico, así de igual forma es utilizada como una competitiva fuente de proteína manteniendo y en
           ocasiones mejorando, niveles de producción de leche y rendimientos de carne.
@@ -64,6 +64,9 @@ hr{
     -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 0.25s;
+    box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -moz-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -webkit-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -80,5 +83,25 @@ hr{
     25%  {filter:blur(25px);}
     50%  {filter:blur(12.5px);}
     100% {filter:blur(0px);}
+}
+@media screen and (max-width: 768px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
 }
 </style>

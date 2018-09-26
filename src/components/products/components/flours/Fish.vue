@@ -7,7 +7,7 @@
       <img class="img-responsive rounded" alt="Harina de pescado" :src="base_url+'static/images/products/flours/pescado.jpg'" />
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9">
-      <p class="rounded textContent">
+      <p class="rounded textContent" ALIGN="justify">
         Es la mejor fuente de energía concentrada para la alimentación de animales. Con un 70% a 80% del producto en
           forma de proteína y grasa digerible, su contenido de energía es notablemente mayor que muchas otras proteínas
           animales o vegetales ya que proporciona una fuente concentrada de proteína de alta calidad y una grasa rica en
@@ -60,6 +60,9 @@ hr{
     -webkit-animation-duration: 0.25s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 0.25s;
+    box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -moz-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
+    -webkit-box-shadow: -5px -5px 50px rgba(0, 0, 0, 0.171);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -67,14 +70,32 @@ hr{
     25%  {filter:blur(25px);}
     50%  {filter:blur(12.5px);}
     100% {filter:blur(0px);}
-
 }
-
 /* Standard syntax */
 @keyframes example {
     0%   {filter:blur(50px);}
     25%  {filter:blur(25px);}
     50%  {filter:blur(12.5px);}
     100% {filter:blur(0px);}
+}
+@media screen and (max-width: 768px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .appear {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+  }
 }
 </style>
