@@ -34,12 +34,23 @@ export default {
     }
   },
   methods: {
+    getPositionScroll: function () {
+      var agente = window.navigator.userAgent
+      var navegadores = ['Chrome', 'Firefox', 'Safari', 'Opera', 'Trident', 'MSIE', 'Edge']
+      for (var i in navegadores) {
+        if (agente.indexOf(navegadores[i]) != -1) {
+          if (navegadores[i].localeCompare('Edge')) {
+            return window.pageYOffset
+          } else {
+            return window.scrollY
+          }
+        }
+      }
+    },
     updateScroll: function () {
-      this.scrollPosition = window.scrollY
-      console.log(this.scrollPosition)
-      console.log(this.isToggleClicked)
+      this.scrollPosition = this.getPositionScroll()
       if (this.$route.path == '/') {
-        if (window.scrollY > 500) {
+        if (this.getPositionScroll() > 500) {
           if (
             document.getElementsByTagName('nav')[0].classList.contains('v-end')
           ) {
@@ -67,7 +78,7 @@ export default {
         }
         document.getElementsByTagName('nav')[0].classList.add('v-start')
       } else {
-        if (window.scrollY > 500) {
+        if (this.getPositionScroll() > 500) {
           document.getElementsByTagName('nav')[0].classList.add('v-start')
         } else {
           document.getElementsByTagName('nav')[0].classList.add('v-end')
@@ -75,7 +86,7 @@ export default {
       }
     },
     change () {
-      if (window.scrollY <= 500 && this.$route.path == '/') {
+      if (this.getPositionScroll() <= 500 && this.$route.path == '/') {
         this.isToggleClicked = !this.isToggleClicked
         if (
           document.getElementsByTagName('nav')[0].classList.contains('v-end')

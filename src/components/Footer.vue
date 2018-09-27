@@ -90,7 +90,6 @@ svg.svg-inline--fa.fa-facebook-square.fa-w-14 {
 .animation{
   animation: shake 5s ease-out infinite;
   transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
   perspective: 1000px;
 }
 @keyframes shake {
