@@ -31,6 +31,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/* For IE10 and avove */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .title-text {
+    margin: 0 26% !important;
+  }
+}
 .jumbotron {
   color: #fff;
   padding: 100px 25px;
@@ -60,7 +66,6 @@ p.typing{
 .animation{
   animation: shake 5s ease-out infinite;
   transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
   perspective: 1000px;
 }
 a {
